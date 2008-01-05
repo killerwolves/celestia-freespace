@@ -1,0 +1,114 @@
+# Systems:			Orbit		Radius		Mass
+#   Deneb			-		250 Ro		20 Mo
+#     Cygnus Prime
+#     Deneb III
+
+#      a = r=25000km
+#        rOrbit = 500 AU
+#        period = 1800 years
+
+"a" "Deneb"
+{
+    Texture "FS2_Planet_a.*"
+    Mass    9e25
+    Radius  25000
+
+    EllipticalOrbit {
+        Period        1800
+	SemiMajorAxis 500
+	Eccentricity  0.1
+    }
+    RotationPeriod 30
+    Obliquity 20
+}
+
+#        sirius node
+#          planet.scale = 2
+#              rOrbit = 2000000 km
+#              period = 100 days
+
+"Sirius Node" "Deneb/a"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        84
+	SemiMajorAxis 2000000
+	Eccentricity  0.2
+    }
+}
+
+#        h = r=6000km
+#          moon.scale = 3
+#              rOrbit = 2000000 km
+#              period = 100 days
+#            scale:1 = r=1200000km
+
+"h" "Deneb/a"
+{
+    Texture "FS2_Planet_h.*"
+    Mass    6e24
+    Radius  6000
+    Color   [ 0.44 0.43 0.55 ]
+
+    Atmosphere {
+        Height 500
+	Lower [ 0.40 0.40 0.70 ]
+	Upper [ 0.26 0.26 0.40 ]
+	Sky [ 0.3 0.2 1.0 ]
+	Sunset [ 0.7 0.5 0.2 ]
+    }
+
+    EllipticalOrbit {
+        Period        84
+	SemiMajorAxis 2000000
+	Eccentricity  0.1
+	MeanAnomaly   90
+    }
+    RotationPeriod 25
+}
+
+"GTD Orion Wreck" "Deneb/a/h"
+{
+    Mesh    "FS2_Bastion.cmod"
+    Mass    100000
+    Radius  1.112
+
+    EllipticalOrbit {
+        Period        0.08
+	SemiMajorAxis 10000
+	Eccentricity  0
+	MeanAnomaly   50
+    }
+
+    RotationPeriod 1.92
+    RotationalOffset 50
+    Obliquity 0
+    EquatorialAscendingNode 0
+
+}
+
+#        Cygnus Prime = r=4000km
+#          moon.scale = 4
+#              rOrbit = 3000000 km
+#              period = 180 days
+#            scale:1 = r=800000km
+
+"Cygnus Prime" "Deneb/a"
+{
+    Texture "FS2_Planet_f.*"
+    Mass    1e24
+    Radius  4000
+
+    EllipticalOrbit {
+        Period        154
+	SemiMajorAxis 3000000
+	Eccentricity  0.1
+    }
+
+    RotationPeriod 21
+}
+
+
