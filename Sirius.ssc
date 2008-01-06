@@ -1,0 +1,62 @@
+#  Sirius			-		Binary
+#    Sirius A			7 AU		1.7 Ro		2.1 Mo
+#    Sirius B			13 AU		0.0084 Ro	0.978 Mo
+#      g = r=70000 km
+#        sun.scale = 2
+#            rOrbit = 4 AU
+#            period = 3 years
+#          scale:1 = 14000000 km
+
+"g" "Sirius A"
+{
+    Texture "FS2_Planet_g.*"
+    Mass    2e27
+    Radius  70000
+
+    EllipticalOrbit {
+        Period        3
+	SemiMajorAxis 4
+	Eccentricity  0
+    }
+    RotationalPeriod 40
+}
+
+#        c = r=1000 km
+#          planet.scale = 3
+#              rOrbit = 4000000 km
+#              period = 50 days
+#            scale:1 = 200000 km
+
+"c" "Sirius A/g"
+{
+    Texture "FS2_Planet_c.*"
+    Mass    1e22
+    Radius  1000
+
+    EllipticalOrbit {
+        Period        50
+	SemiMajorAxis 4000000
+	Eccentricity  0
+    }
+    RotationalPeriod 15
+}
+
+#          Alpha Centauri Node
+#            moon.scale = 1
+#                 rOrbit = 100000 km
+#                 period = 100 days
+
+"Alpha Centauri Node" "Sirius A/g/c"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        100
+	SemiMajorAxis 100000
+	Eccentricity  0
+    }
+}
+
+

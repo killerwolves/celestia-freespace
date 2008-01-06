@@ -1,0 +1,71 @@
+#   Nebula (NP0532)		-		0.00002 Ro	1.7 Mo
+
+"Knossos" "NP0532"
+{
+    Mesh "Gate2a-01.cmod"
+    MeshCenter [ -0.000000 -0.000244 -0.000061 ]
+    Radius 2.365859
+    EllipticalOrbit {
+        Period        24285
+	SemiMajorAxis 1000
+	Eccentricity  0
+    }
+    Obliquity 85
+    RotationalPeriod 2.4e21
+}
+
+"Outer" "NP0532/Knossos"
+{
+    Mesh "Gate2a-01.jump1a.cmod"
+    MeshCenter [ -0.000000 2.903046 -0.000244 ]
+    Radius 2.350007
+    EllipticalOrbit {
+        Period 1e20
+        SemiMajorAxis 0.000000
+        Eccentricity 0
+        Inclination 90
+        MeanAnomaly 0.000000
+        AscendingNode 0.000000
+    }
+#   FixedPosition [ 0.000000 0.000000 0.000000 ]
+    RotationPeriod -0.0222222
+    RotationOffset 0.000000
+    Obliquity 0.000000
+    EquatorAscendingNode -0.000000
+}
+
+"Inner" "NP0532/Knossos"
+{
+    Mesh "Gate2a-01.jump2a.cmod"
+    MeshCenter [ -0.000000 -0.783897 -0.000000 ]
+    Radius 1.832411
+    EllipticalOrbit {
+        Period 1e20
+        SemiMajorAxis 0.000000
+        Eccentricity 0
+        Inclination 90
+        MeanAnomaly 0.000000
+        AscendingNode 0.000000
+    }
+#   FixedPosition [ 0.000000 0.000000 0.000000 ]
+    RotationPeriod 0.00972222
+    RotationOffset 0.000000
+    Obliquity 0.000000
+    EquatorAscendingNode -0.000000
+}
+
+"Gamma Draconis Node" "NP0532"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        24285
+	SemiMajorAxis 1000
+	Eccentricity  0
+	MeanAnomaly   1
+    }
+}
+
+

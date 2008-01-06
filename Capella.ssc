@@ -1,0 +1,203 @@
+#  Capella			-		Double
+#    Capella A			0.366 AU	12.2 Ro		2.69 Mo
+#    Capella B			0.386 AU	9.2 Ro		2.56 Mo
+#      e = r=3000km
+#        sun.scale = 2
+#            rOrbit = 40 AU
+#            period = 3 years
+#          scale:1 = 600000 km
+"e" "Capella"
+{
+    Texture "FS2_Planet_e.*"
+    Mass    5e23
+    Radius  3000
+    Color   [ 0.38 0.46 0.35 ]
+
+    EllipticalOrbit {
+        Period        3
+	SemiMajorAxis 40
+	Eccentricity  0
+    }
+
+    RotationPeriod 15
+}
+
+#        Gamma Draconis Node
+#          planet.scale = 2.5
+#              rOrbit = 200000 km
+#              period = 30 days
+
+"Gamma Draconis Node" "Capella/e"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        30
+	SemiMajorAxis 200000
+	Eccentricity  0
+    }
+}
+
+#        b = r=2000km
+#          rel_scale = 0.2
+#              rOrbit = 2000000 km
+#              period = 200 days
+
+"b" "Capella/e"
+{
+    Texture "FS2_Planet_b.*"
+    Mass    8e22
+    Radius  2000
+
+    EllipticalOrbit {
+        Period        200
+	SemiMajorAxis 2000000
+	Eccentricity  0
+    }
+    RotationalPeriod 25
+}
+
+#      d = r=10000km
+#        sun.scale = 1
+#            rOrbit = 80 AU
+#            period = 8 years
+#          scale:1 = 2000000 km
+"d" "Capella"
+{
+    Texture "FS2_Planet_d.*"
+    Mass    1e25
+    Radius  10000
+
+    EllipticalOrbit {
+        Period        8
+	SemiMajorAxis 80
+	Eccentricity  0
+    }
+    RotationalPeriod 30
+}
+
+#        b = r=2000km
+#          planet.scale = 0.25
+#              rOrbit = 8000000 km
+#              period = 1000 days
+#            scale:1 = 400000 km
+
+"b" "Capella/d"
+{
+    Texture "FS2_Planet_b.*"
+    Mass    8e22
+    Radius  2000
+
+    EllipticalOrbit {
+        Period        1000
+	SemiMajorAxis 8000000
+	Eccentricity  0
+    }
+    RotationalPeriod 13
+}
+
+#          Epsilon Pegasi Node
+#            moon.scale = 2
+#                rOrbit = 200000 km
+#                period = 60 days
+
+"Epsilon Pegasi Node" "Capella/d/b"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        60
+	SemiMajorAxis 200000
+	Eccentricity  0
+    }
+}
+
+#        c = r=1000km
+#          planet.scale = 0.25
+#              rOrbit = 10000000 km
+#              period = 1300 days
+#            scale:1 = 200000 km
+
+"c" "Capella/d"
+{
+    Texture "FS2_Planet_d.*"
+    Mass    1e22
+    Radius  1000
+
+    EllipticalOrbit {
+        Period        1300
+	SemiMajorAxis 10000000
+	Eccentricity  0
+    }
+    RotationalPeriod 20
+}
+
+#          3rd Fleet Headquarters
+#            moon.scale = 1.7
+#                rOrbit = 120000 km
+#                period = 90 days
+
+"3rd Fleet Headquarters" "Capella/d/c"
+{
+    Mesh    "FS2_Installation.cmod"
+    Mass    1000000
+    Radius  3
+
+    EllipticalOrbit {
+        Period        90
+	SemiMajorAxis 120000
+	Eccentricity  0
+    }
+}
+
+#         h = r=6000km
+#           planet.scale = 0.25
+#               rOrbit = 12000000 km
+#               period = 1500 days
+#             scale:1 = 1200000 km
+
+"h" "Capella/d"
+{
+    Texture "FS2_Planet_h.*"
+    Mass    6e24
+    Radius  6000
+    Color   [ 0.44 0.43 0.55 ]
+
+    EllipticalOrbit {
+        Period        1500
+	SemiMajorAxis 12000000
+	Eccentricity  0
+    }
+    RotationalPeriod 22
+}
+
+#           Vega Node
+#             moon.scale = 1.5
+#                 rOrbit = 800000 km
+#                 period = 100 days
+
+"Vega Node" "Capella/d/h"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        100
+	SemiMajorAxis 800000
+    }
+}
+
+#    Epsilon Pegasi = 150 rSol
+#        scale:1 = 600 AU
+#      e = r=3000
+#        sun.scale = 2
+#            rOrbit = 300 AU
+#            period = 3 years
+#          scale:1 = 600000 km
+
+

@@ -1,0 +1,106 @@
+#  Polaris			-		Binary
+#    Polaris A			381 AU		Binary
+#      Polaris Aa		3.5 AU		30 Ro		6 Mo
+#      Polaris Ab		15 AU		1.4 Ro		1.4 Mo
+#    Polaris B			2019 AU		1.38 Ro		1.4 Mo
+#      a = r=25000 km
+#        sun.scale = 2
+#            rOrbit = 80 AU
+#            period = 3 years
+#          scale:1 = 5000000 km
+
+"a" "Polaris"
+{
+    Texture "FS2_Planet_a.*"
+    Mass    9e25
+    Radius  25000
+
+    EllipticalOrbit {
+        Period        3
+	SemiMajorAxis 80
+	Eccentricity  0
+    }
+    RotationalPeriod 30
+}
+
+#        b = r=2000 km
+#          planet.scale = 2
+#              rOrbit = 2500000 km
+#              period = 10 days
+#            scale:1 = 400000 km
+
+"b" "Polaris/a"
+{
+    Texture "FS2_Planet_b.*"
+    Mass    8e22
+    Radius  2000
+
+    EllipticalOrbit {
+        Period        10
+	SemiMajorAxis 2500000
+	Eccentricity  0
+    }
+    RotationalPeriod 17
+}
+
+#        Regulus Node
+#          moon.scale = 0.5
+#              rOrbit = 3500000 km
+#              period = 20 days
+
+"Regulus Node" "Polaris/a"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        20
+	SemiMajorAxis 3500000
+	Eccentricity  0
+    }
+}
+
+#        Polaris Prime = r=6000 km 
+#            rOrbit = 5000000 km
+#            period = 30 days
+#          scale:1 = 1200000 km
+#        Neo-Terra (Polaris Prime)
+#        
+
+"Polaris Prime" "Polaris/a"
+{
+    Texture "FS2_Planet_h.*"
+    Mass    6e24
+    Radius  6000
+    Color   [ 0.44 0.43 0.55 ]
+
+    EllipticalOrbit {
+        Period        30
+	SemiMajorAxis 5000000
+	Eccentricity  0
+    }
+    RotationalPeriod 25
+}
+
+#        c = r=1000 km
+#          moon.scale = 2
+#             rOrbit = 4000000 km
+#             period = 25 days
+#           scale:1 = 200000 km
+
+"c" "Polaris"
+{
+    Texture "FS2_Planet_c.*"
+    Mass    1e22
+    Radius  1000
+
+    EllipticalOrbit {
+        Period        25
+	SemiMajorAxis 4000000
+	Eccentricity  0
+    }
+    RotationalPeriod 27
+}
+
+

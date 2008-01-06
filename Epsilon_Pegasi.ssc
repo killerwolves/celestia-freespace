@@ -1,0 +1,100 @@
+#  Epsilon Pegasi		-		150 Ro		11 Mo
+#      e = r=3000
+#        sun.scale = 2
+#            rOrbit = 300 AU
+#            period = 3 years
+#          scale:1 = 600000 km
+
+"e" "Epsilon Pegasi"
+{
+    Texture "FS2_Planet_e.*"
+    Mass    5e23
+    Radius  3000
+    Color   [ 0.38 0.46 0.35 ]
+
+    EllipticalOrbit {
+        Period        3
+	SemiMajorAxis 300
+	Eccentricity  0
+    }
+
+    RotationalPeriod 40
+}
+
+#        Enif Station
+#          planet.scale = 1
+#              rOrbit = 600000 km
+#              period = 30 days
+
+"Enif Station" "Epsilon Pegasi/e"
+{
+    Mesh    "FS2_Installation.cmod"
+    Mass    1000000
+    Radius  3
+
+    EllipticalOrbit {
+        Period        30
+	SemiMajorAxis 600000
+	Eccentricity  0
+    }
+}
+
+#      b = r=2000km
+#        sun.scale = 2
+#            rOrbit = 300 AU
+#            period = 3 years
+#          scale:1 = 400000 km
+
+"b" "Epsilon Pegasi/e"
+{
+    Texture "FS2_Planet_b.*"
+    Mass    8e22
+    Radius  2000
+
+    EllipticalOrbit {
+        Period        3
+	SemiMajorAxis 300
+	Eccentricity  0
+    }
+    RotationalPeriod 13
+}
+
+#        Capella Node
+#          planet.scale = 3
+#              rOrbit = 120000 km
+#              period = 30 days
+
+"Capella Node" "Epsilon Pegasi/e/b"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        30
+	SemiMajorAxis 120000
+	Eccentricity  0
+    }
+}
+
+#      c = r=1000km
+#        sun.scale = 2
+#            rOrbit = 350 AU
+#            period = 3.5 years
+#          scale:1 = 200000 km
+
+"c" "Epsilon Pegasi"
+{
+    Texture "FS2_Planet_c.*"
+    Mass    1e22
+    Radius  1000
+
+    EllipticalOrbit {
+        Period        3.5
+	SemiMajorAxis 350
+	Eccentricity  0
+    }
+    RotationalPeriod 19
+}
+
+

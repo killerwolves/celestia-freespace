@@ -1,0 +1,142 @@
+#  Beyond Nebula (85 Pegasi)	-		Binary
+#    85 Pegasi A		4.4 AU		0.91 Ro		0.88 Mo
+#    85 Pegasi B		5.9 AU		Binary
+#      85 Pegasi Ba		0.35 AU		0.67 Ro		0.55 Mo
+#      85 Pegasi Bb		1.75 AU		0.1 Ro		0.11 Mo
+
+#    85 Pegasus A = 22 rSol
+#        scale:1 = 88 AU
+#    85 Pegasus B = 5 rSol
+#        scale:1 = 20 AU
+#      g = r=70000km
+#        sun1.scale = 3
+#        sun2.scale = 1
+#            rOrbit = 25 AU
+#            period = 100 years
+#          scale:1 = 14000000 km
+
+"g" "85 Pegasi"
+{
+    Texture "FS2_Planet_g.*"
+    Mass    2e27
+    Radius  70000
+
+    EllipticalOrbit {
+        Period        100
+	SemiMajorAxis 25
+	Eccentricity  0
+    }
+    RotationalPeriod 30
+}
+
+#        e = r=3000 km
+#          moon.scale = 0.3
+#              rOrbit = 12000000 km
+#              period = 220 days
+#            scale:1 = 600000 km
+
+"e" "85 Pegasi/g"
+{
+    Texture "FS2_Planet_e.*"
+    Mass    5e25
+    Radius  3000
+    Color   [ 0.38 0.46 0.35 ]
+
+    EllipticalOrbit {
+        Period        220
+	SemiMajorAxis 12000000
+	Eccentricity  0
+    }
+    RotationalPeriod 25
+}
+
+#        c = r=1000 km
+#          planet.scale = 1
+#              rOrbit = 14000000 km
+#              period = 250 days
+#            scale:1 = 200000 km
+
+"c" "85 Pegasi/g"
+{
+    Texture "FS2_Planet_c.*"
+    Mass    1e22
+    Radius  1000
+
+    EllipticalOrbit {
+        Period        250
+	SemiMajorAxis 14000000
+	Eccentricity  0
+    }
+    RotationalPeriod 16
+}
+
+#          NP0532 Node
+#            moon.scale = 3
+#                rOrbit = 60000 km
+#                period = 40 days
+
+"NP0532 Node" "85 Pegasi/g/c"
+{
+    Mesh    "FS2_JumpNode.cmod"
+    Mass    0
+    Radius  0.636
+
+    EllipticalOrbit {
+        Period        40
+	SemiMajorAxis 60000
+	Eccentricity  0
+    }
+}
+
+#          Knossos
+#            moon.scale = 3
+#                rOrbit = 60000 km
+#                period = 40 days
+#          
+
+"Knossos" "85 Pegasi/g/c"
+{
+    Mesh    "FS2_Subspace.cmod"
+    Mass    0
+    Radius  1
+
+    EllipticalOrbit {
+        Period        40
+	SemiMajorAxis 60000
+	Eccentricity  0
+	MeanAnomaly   0.1
+    }
+    Obliquity 90
+}
+
+"Inner" "85 Pegasi/g/c/Knossos"
+{
+    Mesh    "FS2_Gate_Inner.cmod"
+    Mass    0
+    Radius  1.83241
+
+    EllipticalOrbit {
+        Period        1e9
+        SemiMajorAxis 0
+        Eccentricity  0
+    }
+    RotationPeriod -0.007
+    Obliquity 0
+}
+					
+"Outer" "85 Pegasi/g/c/Knossos"
+{
+    Mesh    "FS2_Gate_Outer.cmod"
+    Mass    0
+    Radius  2.35
+
+    EllipticalOrbit {
+        Period        1e9
+        SemiMajorAxis 0
+        Eccentricity  0
+    }
+    RotationPeriod 0.01
+    Obliquity 0
+}
+
+
