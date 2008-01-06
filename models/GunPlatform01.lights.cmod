@@ -1,0 +1,53 @@
+#celmodel__ascii
+
+# name: GunPlatform01.lights.cmod
+#
+# Put this in your SSC file:
+#
+##"lights" "%parent%/%name%"
+##{
+##    Mesh "GunPlatform01.lights.cmod"
+##    MeshCenter [ -0.013778 -0.072489 -0.008794 ]
+##    Radius 0.004217
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.000000
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 0.000000
+##        AscendingNode 0.000000
+##    }
+###   FixedPosition [ 0.000000 0.000000 0.000000 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity -0.000003
+##    EquatorAscendingNode 0.000000
+##}
+#
+
+material # index 0
+ diffuse 0.000000 0.000000 0.000000
+ opacity 1.000000
+ emissive 1.000000 1.000000 1.000000
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 2
+  0.007846 -4.144744 0.061242 0.000000 0.000000 0.000000 0.000000 0.000000
+  0.019709 4.289723 -0.043653 0.000000 0.000000 0.000000 0.000000 0.000000
+
+ points 0 1
+ 0
+
+ points 0 1
+ 1
+
+end_mesh
+

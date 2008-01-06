@@ -1,0 +1,68 @@
+#celmodel__ascii
+
+# name: capital02.turret17.cmod
+#   $special=subsystem
+#   $fov=180
+#   $name=laser turret
+#
+# Put this in your SSC file:
+#
+##"turret17" "%parent%/%name%"
+##{
+##    Mesh "capital02.turret17.cmod"
+##    MeshCenter [ 0.262736 -3.205980 1.953731 ]
+##    Radius 0.007565
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.321407
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 4.773262
+##        AscendingNode 151.067719
+##    }
+###   FixedPosition [ -0.154950 0.026745 0.280317 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity 57.951550
+##    EquatorAscendingNode -74.372513
+##}
+#
+
+material # index 0
+ diffuse 1.000000 1.000000 1.000000
+ opacity 1.000000
+ texture0 "capital02-03a.*"
+ EmissiveMap "capital02-03a-glow.*"
+ SpecularMap "capital02-03a-shine.*"
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 9
+  0.805640 7.946966 -1.130933 -0.405444 0.605806 -0.684555 0.923209 0.036366
+  -8.594398 1.786020 -1.015715 -0.405444 0.605806 -0.684555 0.959985 0.039387
+  5.557116 1.787373 -9.396117 -0.405444 0.605806 -0.684555 0.918338 0.059496
+  0.805640 7.946966 -1.130933 -0.392627 0.611890 0.686611 0.923209 0.036366
+  5.888057 1.786436 7.265467 -0.392627 0.611890 0.686611 0.918980 0.064104
+  -8.594398 1.786020 -1.015715 -0.392627 0.611890 0.686611 0.959985 0.039387
+  0.805640 7.946966 -1.130933 0.781543 0.623659 -0.015492 0.923209 0.036366
+  5.557116 1.787373 -9.396117 0.781543 0.623659 -0.015492 0.918338 0.059496
+  5.888057 1.786436 7.265467 0.781543 0.623659 -0.015492 0.918980 0.064104
+
+ trifan 0 3
+  2 1 0
+
+ trifan 0 3
+  5 4 3
+
+ trifan 0 3
+  8 7 6
+
+end_mesh
+

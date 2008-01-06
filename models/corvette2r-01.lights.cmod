@@ -1,0 +1,77 @@
+#celmodel__ascii
+
+# name: corvette2r-01.lights.cmod
+#
+# Put this in your SSC file:
+#
+##"lights" "%parent%/%name%"
+##{
+##    Mesh "corvette2r-01.lights.cmod"
+##    MeshCenter [ 2.536903 6.401794 -200.539734 ]
+##    Radius 0.136479
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.000000
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 0.000000
+##        AscendingNode 0.000000
+##    }
+###   FixedPosition [ 0.000000 0.000000 0.000000 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity -0.000003
+##    EquatorAscendingNode 0.000000
+##}
+#
+
+material # index 0
+ diffuse 0.000000 0.000000 0.000000
+ opacity 1.000000
+ emissive 1.000000 1.000000 1.000000
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 8
+  22.243401 130.077316 190.033981 0.000000 0.000000 0.000000 0.000000 0.000000
+  -26.519562 130.077316 190.033981 0.000000 0.000000 0.000000 0.000000 0.000000
+  -73.740440 130.077316 193.512238 0.000000 0.000000 0.000000 0.000000 0.000000
+  70.118675 130.077316 193.512253 0.000000 0.000000 0.000000 0.000000 0.000000
+  92.258499 48.931908 157.733261 0.000000 0.000000 0.000000 0.000000 0.000000
+  -97.332306 48.931908 157.733261 0.000000 0.000000 0.000000 0.000000 0.000000
+  -76.682976 -142.880905 243.346207 0.000000 0.000000 0.000000 0.000000 0.000000
+  72.342804 -142.880905 243.346207 0.000000 0.000000 0.000000 0.000000 0.000000
+
+ points 0 1
+ 0
+
+ points 0 1
+ 1
+
+ points 0 1
+ 2
+
+ points 0 1
+ 3
+
+ points 0 1
+ 4
+
+ points 0 1
+ 5
+
+ points 0 1
+ 6
+
+ points 0 1
+ 7
+
+end_mesh
+

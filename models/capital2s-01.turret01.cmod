@@ -1,0 +1,126 @@
+#celmodel__ascii
+
+# name: capital2s-01.turret01.cmod
+#   $special=subsystem
+#   $fov=180
+#   $name=Laser Turret
+#
+# Put this in your SSC file:
+#
+##"turret01" "%parent%/%name%"
+##{
+##    Mesh "capital2s-01.turret01.cmod"
+##    MeshCenter [ -0.000002 0.000000 0.000015 ]
+##    Radius 0.025085
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 1.621704
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly -5.009715
+##        AscendingNode 264.165222
+##    }
+###   FixedPosition [ 1.607139 -0.141615 0.164232 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity 90.000000
+##    EquatorAscendingNode 0.005978
+##}
+#
+
+material # index 0
+ diffuse 1.000000 1.000000 1.000000
+ opacity 1.000000
+ texture0 "supertile1a.*"
+ EmissiveMap "supertile1a-glow.*"
+ SpecularMap "supertile1a-shine.*"
+end_material
+
+material # index 1
+ diffuse 1.000000 1.000000 1.000000
+ opacity 1.000000
+ texture0 "tsoupdebris01b.*"
+ EmissiveMap "tsoupdebris01b-glow.*"
+ SpecularMap "tsoupdebris01b-shine.*"
+end_material
+
+material # index 2
+ diffuse 1.000000 1.000000 1.000000
+ opacity 1.000000
+ texture0 "capital04-01a.*"
+ EmissiveMap "capital04-01a-glow.*"
+ SpecularMap "capital04-01a-shine.*"
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 3
+  3.473362 -25.084717 7.317879 0.641640 0.323384 0.695501 0.931780 0.355949
+  -7.863895 25.084717 -5.549950 0.641640 0.323384 0.695501 0.992863 0.626253
+  7.863899 -25.084717 3.267349 0.641640 0.323384 0.695501 0.908125 0.355949
+
+ trifan 0 3
+  2 1 0
+
+end_mesh
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 6
+  3.473362 -25.084717 7.317879 -0.000000 -1.000000 0.000000 0.992863 0.626253
+  7.863899 -25.084717 3.267349 -0.000000 -1.000000 0.000000 0.992863 0.626253
+  0.061207 -25.084717 -7.317909 -0.000000 -1.000000 0.000000 0.992863 0.626253
+  -2.642010 -25.084717 1.642937 0.000008 -1.000000 0.000000 0.992863 0.626253
+  3.473362 -25.084717 7.317879 0.000008 -1.000000 0.000000 0.992863 0.626253
+  0.061207 -25.084717 -7.317909 0.000008 -1.000000 0.000000 0.992863 0.626253
+
+ trifan 1 3
+  2 1 0
+
+ trifan 1 3
+  5 4 3
+
+end_mesh
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 9
+  7.863899 -25.084717 3.267349 0.796265 0.146468 -0.586950 0.368861 0.324094
+  -7.863895 25.084717 -5.549950 0.796265 0.146468 -0.586950 0.346818 0.449518
+  0.061207 -25.084717 -7.317909 0.796265 0.146468 -0.586950 0.342398 0.324094
+  -2.642010 -25.084717 1.642937 -0.679818 0.034272 0.732579 0.364800 0.324094
+  -7.863895 25.084717 -5.549950 -0.679818 0.034272 0.732579 0.346818 0.449518
+  3.473362 -25.084717 7.317879 -0.679818 0.034272 0.732579 0.378987 0.324094
+  0.061207 -25.084717 -7.317909 -0.948000 -0.139675 -0.285983 0.342398 0.324094
+  -7.863895 25.084717 -5.549950 -0.948000 -0.139675 -0.285983 0.346818 0.449518
+  -2.642010 -25.084717 1.642937 -0.948000 -0.139675 -0.285983 0.364800 0.324094
+
+ trifan 2 3
+  2 1 0
+
+ trifan 2 3
+  5 4 3
+
+ trifan 2 3
+  8 7 6
+
+end_mesh
+

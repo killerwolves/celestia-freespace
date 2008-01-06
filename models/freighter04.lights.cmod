@@ -1,0 +1,73 @@
+#celmodel__ascii
+
+# name: freighter04.lights.cmod
+#
+# Put this in your SSC file:
+#
+##"lights" "%parent%/%name%"
+##{
+##    Mesh "freighter04.lights.cmod"
+##    MeshCenter [ 0.039419 2.103687 -5.941761 ]
+##    Radius 0.040697
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.000000
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 0.000000
+##        AscendingNode 0.000000
+##    }
+###   FixedPosition [ 0.000000 0.000000 0.000000 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity -0.000003
+##    EquatorAscendingNode 0.000000
+##}
+#
+
+material # index 0
+ diffuse 0.000000 0.000000 0.000000
+ opacity 1.000000
+ emissive 1.000000 1.000000 1.000000
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 7
+  9.005853 -0.926085 46.638733 0.000000 0.000000 0.000000 0.000000 0.000000
+  -8.482240 -0.926085 46.638733 0.000000 0.000000 0.000000 0.000000 0.000000
+  -0.246399 13.218890 -34.755211 0.000000 0.000000 0.000000 0.000000 0.000000
+  18.907097 0.241197 20.234444 0.000000 0.000000 0.000000 0.000000 0.000000
+  -18.985933 0.266130 20.234560 0.000000 0.000000 0.000000 0.000000 0.000000
+  -5.049261 -17.426266 -5.493693 0.000000 0.000000 0.000000 0.000000 0.000000
+  -0.046363 5.093423 41.249344 0.000000 0.000000 0.000000 0.000000 0.000000
+
+ points 0 1
+ 0
+
+ points 0 1
+ 1
+
+ points 0 1
+ 2
+
+ points 0 1
+ 3
+
+ points 0 1
+ 4
+
+ points 0 1
+ 5
+
+ points 0 1
+ 6
+
+end_mesh
+

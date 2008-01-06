@@ -1,0 +1,68 @@
+#celmodel__ascii
+
+# name: supercap2s-01.turret01.cmod
+#   $special=subsystem
+#   $fov=90
+#   $name=Large Beam
+#
+# Put this in your SSC file:
+#
+##"turret01" "%parent%/%name%"
+##{
+##    Mesh "supercap2s-01.turret01.cmod"
+##    MeshCenter [ 0.000003 -0.000125 0.000018 ]
+##    Radius 0.026194
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 3.054947
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 1.004018
+##        AscendingNode 255.320511
+##    }
+###   FixedPosition [ 2.954775 0.053530 0.774041 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity 95.909348
+##    EquatorAscendingNode -1.462492
+##}
+#
+
+material # index 0
+ diffuse 1.000000 1.000000 1.000000
+ opacity 1.000000
+ texture0 "supertile1a.*"
+ EmissiveMap "supertile1a-glow.*"
+ SpecularMap "supertile1a-shine.*"
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 9
+  0.527398 -26.865191 5.179625 -0.970371 -0.241600 0.003239 0.628060 0.842381
+  -13.142494 27.743616 -16.792591 -0.970371 -0.241600 0.003239 0.719140 0.998422
+  -0.267963 -23.508993 17.230833 -0.970371 -0.241600 0.003239 0.633068 0.856076
+  -0.267963 -23.508993 17.230833 0.314557 0.578576 0.752532 0.633068 0.856076
+  -13.142494 27.743616 -16.792591 0.314557 0.578576 0.752532 0.719140 0.998422
+  13.072171 -24.523596 12.434566 0.314557 0.578576 0.752532 0.534895 0.850587
+  13.072171 -24.523596 12.434566 0.518366 -0.204350 -0.830384 0.534895 0.850587
+  -13.142494 27.743616 -16.792591 0.518366 -0.204350 -0.830384 0.719140 0.998422
+  0.527398 -26.865191 5.179625 0.518366 -0.204350 -0.830384 0.628060 0.842381
+
+ trifan 0 3
+  2 1 0
+
+ trifan 0 3
+  5 4 3
+
+ trifan 0 3
+  8 7 6
+
+end_mesh
+

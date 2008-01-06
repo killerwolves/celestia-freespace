@@ -1,0 +1,53 @@
+#celmodel__ascii
+
+# name: Platform2T-01.lights.cmod
+#
+# Put this in your SSC file:
+#
+##"lights" "%parent%/%name%"
+##{
+##    Mesh "Platform2T-01.lights.cmod"
+##    MeshCenter [ 0.042321 0.025646 0.390947 ]
+##    Radius 0.004158
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.000000
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 0.000000
+##        AscendingNode 0.000000
+##    }
+###   FixedPosition [ 0.000000 0.000000 0.000000 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity -0.000003
+##    EquatorAscendingNode 0.000000
+##}
+#
+
+material # index 0
+ diffuse 0.000000 0.000000 0.000000
+ opacity 1.000000
+ emissive 1.000000 1.000000 1.000000
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 2
+  -0.015394 4.132028 -0.483649 0.000000 0.000000 0.000000 0.000000 0.000000
+  -0.069247 -4.183321 -0.298246 0.000000 0.000000 0.000000 0.000000 0.000000
+
+ points 0 1
+ 0
+
+ points 0 1
+ 1
+
+end_mesh
+

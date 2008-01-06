@@ -1,0 +1,61 @@
+#celmodel__ascii
+
+# name: awacs2V-01.lights.cmod
+#
+# Put this in your SSC file:
+#
+##"lights" "%parent%/%name%"
+##{
+##    Mesh "awacs2V-01.lights.cmod"
+##    MeshCenter [ 0.670031 13.038289 -23.992462 ]
+##    Radius 0.018208
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.000000
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 0.000000
+##        AscendingNode 0.000000
+##    }
+###   FixedPosition [ 0.000000 0.000000 0.000000 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity -0.000003
+##    EquatorAscendingNode 0.000000
+##}
+#
+
+material # index 0
+ diffuse 0.000000 0.000000 0.000000
+ opacity 1.000000
+ emissive 1.000000 1.000000 1.000000
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 4
+  17.538403 -13.011156 24.741722 0.000000 0.000000 0.000000 0.000000 0.000000
+  7.511535 -13.011156 23.243202 0.000000 0.000000 0.000000 0.000000 0.000000
+  -8.932236 -13.065422 23.431625 0.000000 0.000000 0.000000 0.000000 0.000000
+  -18.878462 -13.065422 24.652863 0.000000 0.000000 0.000000 0.000000 0.000000
+
+ points 0 1
+ 0
+
+ points 0 1
+ 1
+
+ points 0 1
+ 2
+
+ points 0 1
+ 3
+
+end_mesh
+

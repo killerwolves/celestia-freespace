@@ -1,0 +1,70 @@
+#celmodel__ascii
+
+# name: blip.cmod
+#   
+#
+# Put this in your SSC file:
+#
+##"%name%" "%parent%"
+##{
+##    Mesh "blip.cmod"
+##    MeshCenter [ -0.000000 -0.000000 -0.000001 ]
+##    Radius 0.005478
+##    EllipticalOrbit {
+##        Period %orbitperiod%
+##        SemiMajorAxis %orbitradius%
+##        Eccentricity %orbiteccentricity%
+##        Inclination %orbitinclination%
+##        MeanAnomaly %orbitmeananomaly%
+##        AscendingNode %orbitascendingnode%
+##    }
+##    RotationPeriod 2.4e21
+##    Obliquity %obliquity%
+##    EquatorAscendingNode %equatorascendingnode%
+##}
+#
+
+material # index 0
+ diffuse 1.000000 1.000000 1.000000
+ opacity 1.000000
+ texture0 "cargo2t-01d.*"
+ EmissiveMap "cargo2t-01d-glow.*"
+ SpecularMap "cargo2t-01d-shine.*"
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 12
+  -5.070138 -0.750000 -5.477979 -0.132888 0.274454 -0.065148 0.999501 0.999501
+  -0.000001 -0.750000 5.477981 0.000000 0.265565 0.122994 0.500000 0.000500
+  5.070138 -0.750000 -5.477979 0.132888 0.274454 -0.065148 0.000500 0.999500
+  5.070138 -0.750000 -5.477979 0.132888 0.274454 -0.065148 0.000500 0.999500
+  -0.000001 -0.750000 5.477981 0.000000 0.265565 0.122994 0.500000 0.000500
+  -0.000001 0.750000 -1.825994 0.000000 0.907236 -0.003651 0.500000 0.666500
+  -5.070138 -0.750000 -5.477979 -0.132888 0.274454 -0.065148 0.999501 0.999501
+  5.070138 -0.750000 -5.477979 0.132888 0.274454 -0.065148 0.000500 0.999500
+  -0.000001 0.750000 -1.825994 0.000000 0.907236 -0.003651 0.500000 0.666500
+  -0.000001 -0.750000 5.477981 0.000000 0.265565 0.122994 0.500000 0.000500
+  -5.070138 -0.750000 -5.477979 -0.132888 0.274454 -0.065148 0.999501 0.999501
+  -0.000001 0.750000 -1.825994 0.000000 0.907236 -0.003651 0.500000 0.666500
+
+ trifan 0 3
+  2 1 0
+
+ trifan 0 3
+  5 4 3
+
+ trifan 0 3
+  8 7 6
+
+ trifan 0 3
+  11 10 9
+
+end_mesh
+

@@ -1,0 +1,69 @@
+#celmodel__ascii
+
+# name: frigate2t-01.lights.cmod
+#
+# Put this in your SSC file:
+#
+##"lights" "%parent%/%name%"
+##{
+##    Mesh "frigate2t-01.lights.cmod"
+##    MeshCenter [ 13.627083 -21.351913 70.627823 ]
+##    Radius 0.218961
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.000000
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 0.000000
+##        AscendingNode 0.000000
+##    }
+###   FixedPosition [ 0.000000 0.000000 0.000000 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity -0.000003
+##    EquatorAscendingNode 0.000000
+##}
+#
+
+material # index 0
+ diffuse 0.000000 0.000000 0.000000
+ opacity 1.000000
+ emissive 1.000000 1.000000 1.000000
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 6
+  -0.323341 58.723164 139.389755 0.000000 0.000000 0.000000 0.000000 0.000000
+  -0.323341 27.980965 148.333084 0.000000 0.000000 0.000000 0.000000 0.000000
+  -12.049515 -32.879074 88.403458 0.000000 0.000000 0.000000 0.000000 0.000000
+  -26.930824 95.165329 -289.588715 0.000000 0.000000 0.000000 0.000000 0.000000
+  -3.174568 94.534111 61.928757 0.000000 0.000000 0.000000 0.000000 0.000000
+  -6.027809 -52.461502 -271.904755 0.000000 0.000000 0.000000 0.000000 0.000000
+
+ points 0 1
+ 0
+
+ points 0 1
+ 1
+
+ points 0 1
+ 2
+
+ points 0 1
+ 3
+
+ points 0 1
+ 4
+
+ points 0 1
+ 5
+
+end_mesh
+

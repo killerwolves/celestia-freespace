@@ -1,0 +1,73 @@
+#celmodel__ascii
+
+# name: bomber08.lights.cmod
+#
+# Put this in your SSC file:
+#
+##"lights" "%parent%/%name%"
+##{
+##    Mesh "bomber08.lights.cmod"
+##    MeshCenter [ -1.262575 1.444857 -0.780666 ]
+##    Radius 0.018905
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.000000
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly 0.000000
+##        AscendingNode 0.000000
+##    }
+###   FixedPosition [ 0.000000 0.000000 0.000000 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity -0.000003
+##    EquatorAscendingNode 0.000000
+##}
+#
+
+material # index 0
+ diffuse 0.000000 0.000000 0.000000
+ opacity 1.000000
+ emissive 1.000000 1.000000 1.000000
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 7
+  -10.629774 -2.365651 -15.915521 0.000000 0.000000 0.000000 0.000000 0.000000
+  -15.746552 -4.058669 -11.907410 0.000000 0.000000 0.000000 0.000000 0.000000
+  5.421432 -0.579177 -14.789112 0.000000 0.000000 0.000000 0.000000 0.000000
+  14.081665 -3.685938 -6.893237 0.000000 0.000000 0.000000 0.000000 0.000000
+  -1.971820 2.569954 17.476854 0.000000 0.000000 0.000000 0.000000 0.000000
+  20.167290 -5.459668 0.874392 0.000000 0.000000 0.000000 0.000000 0.000000
+  -17.642138 -0.307888 0.553821 0.000000 0.000000 0.000000 0.000000 0.000000
+
+ points 0 1
+ 0
+
+ points 0 1
+ 1
+
+ points 0 1
+ 2
+
+ points 0 1
+ 3
+
+ points 0 1
+ 4
+
+ points 0 1
+ 5
+
+ points 0 1
+ 6
+
+end_mesh
+

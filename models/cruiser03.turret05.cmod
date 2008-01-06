@@ -1,0 +1,68 @@
+#celmodel__ascii
+
+# name: cruiser03.turret05.cmod
+#   $special=subsystem
+#   $fov=180
+#   $name=laser turret
+#
+# Put this in your SSC file:
+#
+##"turret05" "%parent%/%name%"
+##{
+##    Mesh "cruiser03.turret05.cmod"
+##    MeshCenter [ 0.286748 -0.926904 -0.643525 ]
+##    Radius 0.001670
+##    EllipticalOrbit {
+##        Period 1e20
+##        SemiMajorAxis 0.082132
+##        Eccentricity 0
+##        Inclination 90
+##        MeanAnomaly -18.466745
+##        AscendingNode -63.686024
+##    }
+###   FixedPosition [ 0.069831 -0.026016 -0.034534 ]
+##    RotationPeriod -2.4e+21
+##    RotationOffset 0.000000
+##    Obliquity 174.854523
+##    EquatorAscendingNode 73.600914
+##}
+#
+
+material # index 0
+ diffuse 1.000000 1.000000 1.000000
+ opacity 1.000000
+ texture0 "cruiser03-01a.*"
+ EmissiveMap "cruiser03-01a-glow.*"
+ SpecularMap "cruiser03-01a-shine.*"
+end_material
+
+mesh
+
+ vertexdesc
+  position f3
+  normal f3
+  texcoord0 f2
+ end_vertexdesc
+
+ vertices 9
+  -0.102796 1.591823 0.258575 0.556902 0.605796 0.568217 0.097968 0.209149
+  1.720392 0.357848 -0.212729 0.556902 0.605796 0.568217 0.119869 0.219399
+  -0.632433 0.357865 2.093226 0.556902 0.605796 0.568217 0.097645 0.191962
+  -0.102796 1.591823 0.258575 0.217621 0.611948 -0.760369 0.097968 0.209149
+  -1.492339 0.357845 -1.132226 0.217621 0.611948 -0.760369 0.073718 0.219126
+  1.720392 0.357848 -0.212729 0.217621 0.611948 -0.760369 0.119869 0.219399
+  -0.102796 1.591823 0.258575 -0.755352 0.623612 0.201372 0.097968 0.209149
+  -0.632433 0.357865 2.093226 -0.755352 0.623612 0.201372 0.097645 0.191962
+  -1.492339 0.357845 -1.132226 -0.755352 0.623612 0.201372 0.073718 0.219126
+
+ trifan 0 3
+  2 1 0
+
+ trifan 0 3
+  5 4 3
+
+ trifan 0 3
+  8 7 6
+
+end_mesh
+
