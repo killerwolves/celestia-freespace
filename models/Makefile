@@ -1,6 +1,8 @@
 MODELS := $(patsubst %.pof,%.cmod,$(wildcard *.pof))
 
-.PHONY: models clean
+.PHONY: all models clean
+
+all: models
 
 models: $(MODELS)
 

@@ -1,7 +1,9 @@
 UPPERCASE   := $(wildcard *[A-Z]*.*)
 PCXTEXTURES := $(patsubst %.pcx,%.jpg,$(wildcard *.pcx))
 
-.PHONY: textures lowercase clean
+.PHONY: all textures lowercase clean
+
+all: lowercase textures
 
 lowercase: $(UPPERCASE)
 	for i in $^; do mv "$$i" "$$(tr '[A-Z]' '[a-z]' <<<"$$i")"; done
