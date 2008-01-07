@@ -9,7 +9,7 @@
 
 "a" "Deneb"
 {
-    Texture "FS2_Planet_a.*"
+    Texture "fs2_planet_a.*"
     Mass    9e25
     Radius  25000
 
@@ -48,7 +48,7 @@
 
 "h" "Deneb/a"
 {
-    Texture "FS2_Planet_h.*"
+    Texture "fs2_planet_h.*"
     Mass    6e24
     Radius  6000
     Color   [ 0.44 0.43 0.55 ]
@@ -98,7 +98,7 @@
 
 "Cygnus Prime" "Deneb/a"
 {
-    Texture "FS2_Planet_f.*"
+    Texture "fs2_planet_f.*"
     Mass    1e24
     Radius  4000
 

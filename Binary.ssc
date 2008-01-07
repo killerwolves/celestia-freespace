@@ -17,7 +17,7 @@
 
 "g" "85 Pegasi"
 {
-    Texture "FS2_Planet_g.*"
+    Texture "fs2_planet_g.*"
     Mass    2e27
     Radius  70000
 
@@ -37,7 +37,7 @@
 
 "e" "85 Pegasi/g"
 {
-    Texture "FS2_Planet_e.*"
+    Texture "fs2_planet_e.*"
     Mass    5e25
     Radius  3000
     Color   [ 0.38 0.46 0.35 ]
@@ -58,7 +58,7 @@
 
 "c" "85 Pegasi/g"
 {
-    Texture "FS2_Planet_c.*"
+    Texture "fs2_planet_c.*"
     Mass    1e22
     Radius  1000
 

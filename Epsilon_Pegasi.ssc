@@ -7,7 +7,7 @@
 
 "e" "Epsilon Pegasi"
 {
-    Texture "FS2_Planet_e.*"
+    Texture "fs2_planet_e.*"
     Mass    5e23
     Radius  3000
     Color   [ 0.38 0.46 0.35 ]
@@ -47,7 +47,7 @@
 
 "b" "Epsilon Pegasi/e"
 {
-    Texture "FS2_Planet_b.*"
+    Texture "fs2_planet_b.*"
     Mass    8e22
     Radius  2000
 
@@ -85,7 +85,7 @@
 
 "c" "Epsilon Pegasi"
 {
-    Texture "FS2_Planet_c.*"
+    Texture "fs2_planet_c.*"
     Mass    1e22
     Radius  1000
 

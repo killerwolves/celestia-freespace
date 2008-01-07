@@ -11,7 +11,7 @@
 
 "a" "Polaris"
 {
-    Texture "FS2_Planet_a.*"
+    Texture "fs2_planet_a.*"
     Mass    9e25
     Radius  25000
 
@@ -31,7 +31,7 @@
 
 "b" "Polaris/a"
 {
-    Texture "FS2_Planet_b.*"
+    Texture "fs2_planet_b.*"
     Mass    8e22
     Radius  2000
 
@@ -70,7 +70,7 @@
 
 "Polaris Prime" "Polaris/a"
 {
-    Texture "FS2_Planet_h.*"
+    Texture "fs2_planet_h.*"
     Mass    6e24
     Radius  6000
     Color   [ 0.44 0.43 0.55 ]
@@ -91,7 +91,7 @@
 
 "c" "Polaris"
 {
-    Texture "FS2_Planet_c.*"
+    Texture "fs2_planet_c.*"
     Mass    1e22
     Radius  1000
 

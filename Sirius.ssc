@@ -9,7 +9,7 @@
 
 "g" "Sirius A"
 {
-    Texture "FS2_Planet_g.*"
+    Texture "fs2_planet_g.*"
     Mass    2e27
     Radius  70000
 
@@ -29,7 +29,7 @@
 
 "c" "Sirius A/g"
 {
-    Texture "FS2_Planet_c.*"
+    Texture "fs2_planet_c.*"
     Mass    1e22
     Radius  1000
 

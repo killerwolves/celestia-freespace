@@ -8,7 +8,7 @@
 #          scale:1 = 600000 km
 "e" "Capella"
 {
-    Texture "FS2_Planet_e.*"
+    Texture "fs2_planet_e.*"
     Mass    5e23
     Radius  3000
     Color   [ 0.38 0.46 0.35 ]
@@ -47,7 +47,7 @@
 
 "b" "Capella/e"
 {
-    Texture "FS2_Planet_b.*"
+    Texture "fs2_planet_b.*"
     Mass    8e22
     Radius  2000
 
@@ -66,7 +66,7 @@
 #          scale:1 = 2000000 km
 "d" "Capella"
 {
-    Texture "FS2_Planet_d.*"
+    Texture "fs2_planet_d.*"
     Mass    1e25
     Radius  10000
 
@@ -86,7 +86,7 @@
 
 "b" "Capella/d"
 {
-    Texture "FS2_Planet_b.*"
+    Texture "fs2_planet_b.*"
     Mass    8e22
     Radius  2000
 
@@ -124,7 +124,7 @@
 
 "c" "Capella/d"
 {
-    Texture "FS2_Planet_d.*"
+    Texture "fs2_planet_d.*"
     Mass    1e22
     Radius  1000
 
@@ -162,7 +162,7 @@
 
 "h" "Capella/d"
 {
-    Texture "FS2_Planet_h.*"
+    Texture "fs2_planet_h.*"
     Mass    6e24
     Radius  6000
     Color   [ 0.44 0.43 0.55 ]
