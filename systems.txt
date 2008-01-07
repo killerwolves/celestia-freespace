@@ -1,0 +1,106 @@
+planets: (approximate)				Radius		Mass
+   a1 (Neptune)  				25000 km  	9e25 kg
+   b  (Callisto) 				2000 km    	8e22 kg
+   c  (Europa)   				1000 km		1e22 kg
+   d  (Venus or Titan)				10000 km   	1e25 kg
+   e  (?)					3000 km		5e23 kg
+   f  (Mars)					4000 km		1e24 kg
+   g  (Jupiter)					70000 km	2e27 kg
+   h  (?)					6000 km		6e24 kg
+
+  1 Ro = 1 Solar Radius = 696000 km
+  1 Mo = 1 Solar Mass = 1.9891e30 kg
+  1 AU = 1 Astronomical Unit = 149600000 km
+  1 Re = 1 Earth Radius = 6371 km
+  1 Me = 1 Earth Mass = 6.96e24 kg
+
+Systems:			Orbit		Radius		Mass
+  Sol				-		1 Ro		1 Mo
+  Adhara			-		Double
+    Adhara A			?		?		10 Mo
+    Adhara B			?		?		?
+  Aldebaran			-		25 Ro		2.5 Mo
+  Alpha Centauri		-		Double
+    Alpha Centauri A		10.765 AU	1.227 Ro	1.1 Mo
+    Alpha Centauri B		12.755 AU	0.865 Ro	0.91 Mo
+  Alphard			-		34.5 Ro		?
+  Altair			-		1.7 Ro		1.7 Mo
+  Antares			-		700 Ro		15.5 Mo
+  Barnard's Star		-		0.15 Ro		0.15 Mo
+  Beta Aquilae			-		3.1 Ro		1.3 Mo
+  Beta Cygni			-		Double
+    Beta Cygni A		1600 AU		Double
+      Beta Cygni Aa		16 AU		55.6 Ro		5 Mo
+      Beta Cygni Ab		24 AU		3 Ro		3.2 Mo
+    Beta Cygni B		2400 AU		3.1 Ro		3.3 Mo
+  Betelgeuse			-		630 Ro		14 Mo
+  Capella			-		Double
+    Capella A			0.366 AU	12.2 Ro		2.69 Mo
+    Capella B			0.386 AU	9.2 Ro		2.56 Mo
+  Delta Serpentis		-		Double
+    Delta Serpentis A		2100 AU		Double
+      Delta Serpentis Aa	120 AU		?		?
+      Delta Serpentis Ab	120 AU		?		?
+    Delta Serpentis B		2100 AU		Double
+      Delta Serpentis Ba	140 AU		?		?
+      Delta Serpentis Bb	140 AU		?		?
+  Deneb				-		250 Ro		20 Mo
+    Cygnus Prime
+    Deneb III
+  Dubhe				-		Double
+    Dubhe Aa			7 AU		16 Ro		4 Mo
+    Dubhe Ab			16 AU		1.3 Ro		1.7 Mo
+  Epsilon Eridani		-		0.84 Ro		0.85 Mo
+  Epsilon Pegasi		-		150 Ro		11 Mo
+  Gamma Draconis		-		50 Ro		1.7 Mo
+  Gienah Cygni			-		14 Ro		3 Mo
+  Kaus Borealis			-		11 Ro		2.3 Mo
+  Luyten 726-8			-		Double
+    Luyten 726-8A		2.61 AU		0.14 Ro		0.1 Mo
+    Luyten 726-8B		2.61 AU		0.14 Ro		0.1 Mo
+  Mintaka			-		Quad
+    Mintaka A			?		?		20 Mo
+    Mintaka B			?		?		20 Mo
+    Mintaka C			?		?		?
+    Mintaka D			?		?		?
+  Mirfak			-		56 Ro		11 Mo
+  Naos				-		20 Ro		59 mo
+  Phi Eridani			?		?		?
+  Polaris			-		Binary
+    Polaris A			381 AU		Binary
+      Polaris Aa		3.5 AU		30 Ro		6 Mo
+      Polaris Ab		15 AU		1.4 Ro		1.4 Mo
+    Polaris B			2019 AU		1.38 Ro		1.4 Mo
+  Procyon			-		Binary
+    Procyon A			4.38 AU		2 Ro		1.4 Mo
+    Procyon B			10.22 AU	0.012 Ro	0.6 Mo
+  Regulus			-		3.5 Ro		3.5 Ro
+  Ross 128			-		0.21 Ro		0.156 Mo
+  Sirius			-		Binary
+    Sirius A			7 AU		1.7 Ro		2.1 Mo
+    Sirius B			13 AU		0.0084 Ro	0.978 Mo
+  Tania Australis		-		Binary
+    Tania Australis A		0.75 AU		?		?
+    Tania Australis B		0.75 AU		?		?
+  Tegmen			-		Binary
+    Tegmen A			?		Binary
+      Tegmen Aa			?		?		?
+      Tegmen Ab			?		?		?
+    Tegmen B			?		Binary
+      Tegmen Ba			?		?		?
+      Tegmen Bb			?		?		?
+  Vega				-		2.78 Ro		2.11 Mo
+  Wolf 359			-		0.16 Ro		0.09 Mo
+  ==== Unknown systems ====
+  Vasuda (Beta Hydri)		-		1.9 Ro		1.1 Mo
+  Ikeya
+  Laramis
+  Ribos
+  Nebula (NP0532)		-		0.00002 Ro	1.7 Mo
+  Beyond Nebula (85 Pegasi)	-		Binary
+    85 Pegasi A			4.4 AU		0.91 Ro		0.88 Mo
+    85 Pegasi B			5.9 AU		Binary
+      85 Pegasi Ba		0.35 AU		0.67 Ro		0.55 Mo
+      85 Pegasi Bb		1.75 AU		0.1 Ro		0.11 Mo
+
+
