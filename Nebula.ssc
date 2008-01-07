@@ -56,7 +56,7 @@
 
 "Gamma Draconis Node" "NP0532"
 {
-    Mesh    "FS2_JumpNode.cmod"
+    Mesh    "subspacenode.cmod"
     Mass    0
     Radius  0.636
 

@@ -38,7 +38,7 @@
 
 "Gamma Draconis Node" "Capella/e"
 {
-    Mesh    "FS2_JumpNode.cmod"
+    Mesh    "subspacenode.cmod"
     Mass    0
     Radius  0.636
 
@@ -114,7 +114,7 @@
 
 "Epsilon Pegasi Node" "Capella/d/b"
 {
-    Mesh    "FS2_JumpNode.cmod"
+    Mesh    "subspacenode.cmod"
     Mass    0
     Radius  0.636
 
@@ -152,7 +152,7 @@
 
 "3rd Fleet Headquarters" "Capella/d/c"
 {
-    Mesh    "FS2_Installation.cmod"
+    Mesh    "install01-fused.cmod"
     Mass    1000000
     Radius  3
 
@@ -199,7 +199,7 @@
 
 "Vega Node" "Capella/d/h"
 {
-    Mesh    "FS2_JumpNode.cmod"
+    Mesh    "subspacenode.cmod"
     Mass    0
     Radius  0.636
 

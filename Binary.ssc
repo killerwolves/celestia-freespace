@@ -77,7 +77,7 @@
 
 "NP0532 Node" "85 Pegasi/g/c"
 {
-    Mesh    "FS2_JumpNode.cmod"
+    Mesh    "subspacenode.cmod"
     Mass    0
     Radius  0.636
 
