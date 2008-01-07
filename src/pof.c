@@ -36,7 +36,7 @@ int pofdecode (uint8_t *buf, int len, POF_MODEL *model){
          (htype = getuint32 (buf + offset)) != 0 &&
 	 (hlen = getuint32 (buf + offset + 4)) >= 4 &&
 	 offset < len;
-	 offset += ((hlen + 3) & -4) + 8){
+	 offset += hlen + 8){
         for (i=0; 
 	     pof_fcc_handler[i].fcc != NULL &&
 	     getuint32 (pof_fcc_handler[i].fcc) != htype;
@@ -69,8 +69,9 @@ int pof_textures (uint8_t *buf, int len, POF_MODEL *model){
         l = getuint32 (buf);
 	buf += 4;
 	len -= 4;
-	tmp[i] = malloc (l + 4);
+	tmp[i] = malloc (l + 1);
 	ASSERT_PERROR (tmp[i] != NULL, "Unable to allocate memory for texture name\n");
+	memset (tmp[i], 0, l + 1);
         strncpy (tmp[i], buf, l);
 	/* strtolower */
 	for (j=0; tmp[i][j] != 0; j++){
@@ -295,6 +296,7 @@ int pof_object (uint8_t *buf, int len, POF_MODEL *model){
     int nchunks;
     int bsp_data_size;
     int parent;
+    char *name;
 
     /* Submodel number */
     n = getuint32 (buf);
@@ -380,10 +382,17 @@ int pof_object (uint8_t *buf, int len, POF_MODEL *model){
 
     /* Submodel name */
     l = getuint32 (buf);
-    model->submodels[n].path.name = malloc (l + 1);
-    ASSERT_PERROR (model->submodels[n].path.name != NULL, "Unable to allocate memory for submodel name");
-    memcpy (model->submodels[n].path.name, buf + 4, l);
-    model->submodels[n].path.name[l] = 0;
+    if (l != 0){
+        model->submodels[n].path.name = malloc (l + 1);
+        ASSERT_PERROR (model->submodels[n].path.name != NULL, "Unable to allocate memory for submodel name");
+        memcpy (model->submodels[n].path.name, buf + 4, l);
+        model->submodels[n].path.name[l] = 0;
+    } else {
+        model->submodels[n].path.name = malloc (16);
+        ASSERT_PERROR (model->submodels[n].path.name != NULL, "Unable to allocate memory for submodel name");
+	snprintf (model->submodels[n].path.name, 15, "_%d_", n);
+    }
+
     DEBUG_PRINTF ("# Name: %s\n", model->submodels[n].path.name);
     buf += l + 4;
     len -= l + 4;
