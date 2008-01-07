@@ -27,8 +27,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "fighter2s-03a.*"
- EmissiveMap "fighter2s-03a-glow.*"
- SpecularMap "fighter2s-03a-shine.*"
 end_material
 
 material # index 1

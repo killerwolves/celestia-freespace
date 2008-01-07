@@ -27,112 +27,84 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion02.*"
- EmissiveMap "legion02-glow.*"
- SpecularMap "legion02-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "runwaylegion.*"
- EmissiveMap "runwaylegion-glow.*"
- SpecularMap "runwaylegion-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion01.*"
- EmissiveMap "legion01-glow.*"
- SpecularMap "legion01-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion06.*"
- EmissiveMap "legion06-glow.*"
- SpecularMap "legion06-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion03.*"
- EmissiveMap "legion03-glow.*"
- SpecularMap "legion03-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ylegionwindows.*"
- EmissiveMap "ylegionwindows-glow.*"
- SpecularMap "ylegionwindows-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion06.*"
- EmissiveMap "legion06-glow.*"
- SpecularMap "legion06-shine.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion01.*"
- EmissiveMap "legion01-glow.*"
- SpecularMap "legion01-shine.*"
 end_material
 
 material # index 8
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion01.*"
- EmissiveMap "legion01-glow.*"
- SpecularMap "legion01-shine.*"
 end_material
 
 material # index 9
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion02.*"
- EmissiveMap "legion02-glow.*"
- SpecularMap "legion02-shine.*"
 end_material
 
 material # index 10
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion05.*"
- EmissiveMap "legion05-glow.*"
- SpecularMap "legion05-shine.*"
 end_material
 
 material # index 11
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion07.*"
- EmissiveMap "legion07-glow.*"
- SpecularMap "legion07-shine.*"
 end_material
 
 material # index 12
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "metaldamagegrid.*"
- EmissiveMap "metaldamagegrid-glow.*"
- SpecularMap "metaldamagegrid-shine.*"
 end_material
 
 material # index 13
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "orionengine.*"
- EmissiveMap "orionengine-glow.*"
- SpecularMap "orionengine-shine.*"
 end_material
 
 mesh

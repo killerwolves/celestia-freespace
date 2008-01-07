@@ -27,40 +27,30 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles2a.*"
- EmissiveMap "cruistiles2a-glow.*"
- SpecularMap "cruistiles2a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles1a.*"
- EmissiveMap "cruistiles1a-glow.*"
- SpecularMap "cruistiles1a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles5a.*"
- EmissiveMap "cruistiles5a-glow.*"
- SpecularMap "cruistiles5a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles3a.*"
- EmissiveMap "cruistiles3a-glow.*"
- SpecularMap "cruistiles3a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles4a.*"
- EmissiveMap "cruistiles4a-glow.*"
- SpecularMap "cruistiles4a-shine.*"
 end_material
 
 material # index 5

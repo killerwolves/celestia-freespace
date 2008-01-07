@@ -27,8 +27,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "nbackblue1.*"
- EmissiveMap "nbackblue1-glow.*"
- SpecularMap "nbackblue1-shine.*"
 end_material
 
 mesh

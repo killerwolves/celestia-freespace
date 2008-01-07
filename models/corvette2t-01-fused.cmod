@@ -27,64 +27,48 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov3a.*"
- EmissiveMap "tcov3a-glow.*"
- SpecularMap "tcov3a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov2a.*"
- EmissiveMap "tcov2a-glow.*"
- SpecularMap "tcov2a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov4a.*"
- EmissiveMap "tcov4a-glow.*"
- SpecularMap "tcov4a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov7a.*"
- EmissiveMap "tcov7a-glow.*"
- SpecularMap "tcov7a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov1a.*"
- EmissiveMap "tcov1a-glow.*"
- SpecularMap "tcov1a-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov6a.*"
- EmissiveMap "tcov6a-glow.*"
- SpecularMap "tcov6a-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov5a.*"
- EmissiveMap "tcov5a-glow.*"
- SpecularMap "tcov5a-shine.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov2b.*"
- EmissiveMap "tcov2b-glow.*"
- SpecularMap "tcov2b-shine.*"
 end_material
 
 material # index 8

@@ -32,8 +32,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cannon.*"
- EmissiveMap "cannon-glow.*"
- SpecularMap "cannon-shine.*"
 end_material
 
 mesh

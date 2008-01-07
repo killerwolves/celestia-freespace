@@ -33,16 +33,12 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner01-05.*"
- EmissiveMap "miner01-05-glow.*"
- SpecularMap "miner01-05-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov1a.*"
- EmissiveMap "tcov1a-glow.*"
- SpecularMap "tcov1a-shine.*"
 end_material
 
 mesh

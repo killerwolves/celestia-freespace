@@ -32,16 +32,12 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "matey.*"
- EmissiveMap "matey-glow.*"
- SpecularMap "matey-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "crew.*"
- EmissiveMap "crew-glow.*"
- SpecularMap "crew-shine.*"
 end_material
 
 mesh

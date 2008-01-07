@@ -28,8 +28,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cargo06-01a.*"
- EmissiveMap "cargo06-01a-glow.*"
- SpecularMap "cargo06-01a-shine.*"
 end_material
 
 mesh

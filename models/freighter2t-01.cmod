@@ -28,48 +28,36 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 0.000000
  texture0 "invisible.*"
- EmissiveMap "invisible-glow.*"
- SpecularMap "invisible-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ftile5.*"
- EmissiveMap "ftile5-glow.*"
- SpecularMap "ftile5-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ftile4.*"
- EmissiveMap "ftile4-glow.*"
- SpecularMap "ftile4-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "fmap1.*"
- EmissiveMap "fmap1-glow.*"
- SpecularMap "fmap1-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ftile1.*"
- EmissiveMap "ftile1-glow.*"
- SpecularMap "ftile1-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ftile2.*"
- EmissiveMap "ftile2-glow.*"
- SpecularMap "ftile2-shine.*"
 end_material
 
 mesh

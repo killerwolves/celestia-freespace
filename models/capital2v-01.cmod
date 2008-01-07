@@ -28,32 +28,24 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capvtile3a.*"
- EmissiveMap "capvtile3a-glow.*"
- SpecularMap "capvtile3a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile1a.*"
- EmissiveMap "vctile1a-glow.*"
- SpecularMap "vctile1a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capvtile2a.*"
- EmissiveMap "capvtile2a-glow.*"
- SpecularMap "capvtile2a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capvtile4a.*"
- EmissiveMap "capvtile4a-glow.*"
- SpecularMap "capvtile4a-shine.*"
 end_material
 
 mesh

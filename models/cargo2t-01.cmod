@@ -28,16 +28,12 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cargot1.*"
- EmissiveMap "cargot1-glow.*"
- SpecularMap "cargot1-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cargot2.*"
- EmissiveMap "cargot2-glow.*"
- SpecularMap "cargot2-shine.*"
 end_material
 
 mesh

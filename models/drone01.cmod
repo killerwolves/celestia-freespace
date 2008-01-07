@@ -28,8 +28,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "drone01-01a.*"
- EmissiveMap "drone01-01a-glow.*"
- SpecularMap "drone01-01a-shine.*"
 end_material
 
 mesh

@@ -28,24 +28,18 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tile1.*"
- EmissiveMap "tile1-glow.*"
- SpecularMap "tile1-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cargo1.*"
- EmissiveMap "cargo1-glow.*"
- SpecularMap "cargo1-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cargo2.*"
- EmissiveMap "cargo2-glow.*"
- SpecularMap "cargo2-shine.*"
 end_material
 
 mesh

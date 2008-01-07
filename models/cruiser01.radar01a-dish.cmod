@@ -32,16 +32,12 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruiser01-02a.*"
- EmissiveMap "cruiser01-02a-glow.*"
- SpecularMap "cruiser01-02a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruiser01-01a.*"
- EmissiveMap "cruiser01-01a-glow.*"
- SpecularMap "cruiser01-01a-shine.*"
 end_material
 
 mesh

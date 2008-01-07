@@ -28,80 +28,60 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vasflag.*"
- EmissiveMap "vasflag-glow.*"
- SpecularMap "vasflag-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "keel.*"
- EmissiveMap "keel-glow.*"
- SpecularMap "keel-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "matey.*"
- EmissiveMap "matey-glow.*"
- SpecularMap "matey-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "crew.*"
- EmissiveMap "crew-glow.*"
- SpecularMap "crew-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "sail.*"
- EmissiveMap "sail-glow.*"
- SpecularMap "sail-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "inside.*"
- EmissiveMap "inside-glow.*"
- SpecularMap "inside-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "sideplank.*"
- EmissiveMap "sideplank-glow.*"
- SpecularMap "sideplank-shine.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "bottom.*"
- EmissiveMap "bottom-glow.*"
- SpecularMap "bottom-shine.*"
 end_material
 
 material # index 8
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cannon.*"
- EmissiveMap "cannon-glow.*"
- SpecularMap "cannon-shine.*"
 end_material
 
 material # index 9
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "plank.*"
- EmissiveMap "plank-glow.*"
- SpecularMap "plank-shine.*"
 end_material
 
 mesh

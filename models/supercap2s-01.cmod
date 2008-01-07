@@ -28,40 +28,30 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile1a.*"
- EmissiveMap "supertile1a-glow.*"
- SpecularMap "supertile1a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile5a.*"
- EmissiveMap "supertile5a-glow.*"
- SpecularMap "supertile5a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile4a.*"
- EmissiveMap "supertile4a-glow.*"
- SpecularMap "supertile4a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile2a.*"
- EmissiveMap "supertile2a-glow.*"
- SpecularMap "supertile2a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile3a.*"
- EmissiveMap "supertile3a-glow.*"
- SpecularMap "supertile3a-shine.*"
 end_material
 
 mesh

@@ -28,32 +28,24 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "corvstile2a.*"
- EmissiveMap "corvstile2a-glow.*"
- SpecularMap "corvstile2a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "corvstile3a.*"
- EmissiveMap "corvstile3a-glow.*"
- SpecularMap "corvstile3a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "corvstile4a.*"
- EmissiveMap "corvstile4a-glow.*"
- SpecularMap "corvstile4a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "corvstile1a.*"
- EmissiveMap "corvstile1a-glow.*"
- SpecularMap "corvstile1a-shine.*"
 end_material
 
 mesh

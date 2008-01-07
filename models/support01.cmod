@@ -28,24 +28,18 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "support01-03a.*"
- EmissiveMap "support01-03a-glow.*"
- SpecularMap "support01-03a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "support01-02a.*"
- EmissiveMap "support01-02a-glow.*"
- SpecularMap "support01-02a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "support01-01a.*"
- EmissiveMap "support01-01a-glow.*"
- SpecularMap "support01-01a-shine.*"
 end_material
 
 mesh

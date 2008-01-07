@@ -27,48 +27,36 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea1.*"
- EmissiveMap "wactilea1-glow.*"
- SpecularMap "wactilea1-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea6.*"
- EmissiveMap "wactilea6-glow.*"
- SpecularMap "wactilea6-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea2.*"
- EmissiveMap "wactilea2-glow.*"
- SpecularMap "wactilea2-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea3.*"
- EmissiveMap "wactilea3-glow.*"
- SpecularMap "wactilea3-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea4.*"
- EmissiveMap "wactilea4-glow.*"
- SpecularMap "wactilea4-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea5.*"
- EmissiveMap "wactilea5-glow.*"
- SpecularMap "wactilea5-shine.*"
 end_material
 
 material # index 6

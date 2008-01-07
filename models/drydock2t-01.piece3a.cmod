@@ -32,48 +32,36 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile2a.*"
- EmissiveMap "doctile2a-glow.*"
- SpecularMap "doctile2a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile5a.*"
- EmissiveMap "doctile5a-glow.*"
- SpecularMap "doctile5a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile3a.*"
- EmissiveMap "doctile3a-glow.*"
- SpecularMap "doctile3a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile6a.*"
- EmissiveMap "doctile6a-glow.*"
- SpecularMap "doctile6a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile4a.*"
- EmissiveMap "doctile4a-glow.*"
- SpecularMap "doctile4a-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile1a.*"
- EmissiveMap "doctile1a-glow.*"
- SpecularMap "doctile1a-shine.*"
 end_material
 
 mesh

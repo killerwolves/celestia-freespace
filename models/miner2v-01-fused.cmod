@@ -27,56 +27,42 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vtile03a.*"
- EmissiveMap "miner02vtile03a-glow.*"
- SpecularMap "miner02vtile03a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02va1.*"
- EmissiveMap "miner02va1-glow.*"
- SpecularMap "miner02va1-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vtile04a.*"
- EmissiveMap "miner02vtile04a-glow.*"
- SpecularMap "miner02vtile04a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vtile02a.*"
- EmissiveMap "miner02vtile02a-glow.*"
- SpecularMap "miner02vtile02a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vtile01a.*"
- EmissiveMap "miner02vtile01a-glow.*"
- SpecularMap "miner02vtile01a-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vtile05a.*"
- EmissiveMap "miner02vtile05a-glow.*"
- SpecularMap "miner02vtile05a-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vb.*"
- EmissiveMap "miner02vb-glow.*"
- SpecularMap "miner02vb-shine.*"
 end_material
 
 material # index 7

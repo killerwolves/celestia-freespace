@@ -31,32 +31,24 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "roid1a.*"
- EmissiveMap "roid1a-glow.*"
- SpecularMap "roid1a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov3a.*"
- EmissiveMap "tcov3a-glow.*"
- SpecularMap "tcov3a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov7a.*"
- EmissiveMap "tcov7a-glow.*"
- SpecularMap "tcov7a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 0.000000
  texture0 "invisible.*"
- EmissiveMap "invisible-glow.*"
- SpecularMap "invisible-shine.*"
 end_material
 
 mesh

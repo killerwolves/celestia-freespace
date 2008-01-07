@@ -32,24 +32,18 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ctile1.*"
- EmissiveMap "ctile1-glow.*"
- SpecularMap "ctile1-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ctile5.*"
- EmissiveMap "ctile5-glow.*"
- SpecularMap "ctile5-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ctile2.*"
- EmissiveMap "ctile2-glow.*"
- SpecularMap "ctile2-shine.*"
 end_material
 
 mesh

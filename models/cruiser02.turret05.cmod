@@ -32,8 +32,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruiser02-01a.*"
- EmissiveMap "cruiser02-01a-glow.*"
- SpecularMap "cruiser02-01a-shine.*"
 end_material
 
 mesh

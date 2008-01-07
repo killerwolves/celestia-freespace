@@ -28,88 +28,66 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-02a.*"
- EmissiveMap "capital03-02a-glow.*"
- SpecularMap "capital03-02a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-01a.*"
- EmissiveMap "capital03-01a-glow.*"
- SpecularMap "capital03-01a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-04a.*"
- EmissiveMap "capital03-04a-glow.*"
- SpecularMap "capital03-04a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-03a.*"
- EmissiveMap "capital03-03a-glow.*"
- SpecularMap "capital03-03a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-05a.*"
- EmissiveMap "capital03-05a-glow.*"
- SpecularMap "capital03-05a-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-02a.*"
- EmissiveMap "capital03-02a-glow.*"
- SpecularMap "capital03-02a-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-06a.*"
- EmissiveMap "capital03-06a-glow.*"
- SpecularMap "capital03-06a-shine.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 0.000000
  texture0 "invisible.*"
- EmissiveMap "invisible-glow.*"
- SpecularMap "invisible-shine.*"
 end_material
 
 material # index 8
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-01a.*"
- EmissiveMap "capital03-01a-glow.*"
- SpecularMap "capital03-01a-shine.*"
 end_material
 
 material # index 9
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-02a.*"
- EmissiveMap "capital03-02a-glow.*"
- SpecularMap "capital03-02a-shine.*"
 end_material
 
 material # index 10
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital03-06a.*"
- EmissiveMap "capital03-06a-glow.*"
- SpecularMap "capital03-06a-shine.*"
 end_material
 
 mesh

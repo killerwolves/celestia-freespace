@@ -28,8 +28,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tdebris01b.*"
- EmissiveMap "tdebris01b-glow.*"
- SpecularMap "tdebris01b-shine.*"
 end_material
 
 mesh

@@ -27,80 +27,60 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-03a.*"
- EmissiveMap "install01-03a-glow.*"
- SpecularMap "install01-03a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-01a.*"
- EmissiveMap "install01-01a-glow.*"
- SpecularMap "install01-01a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-04a.*"
- EmissiveMap "install01-04a-glow.*"
- SpecularMap "install01-04a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-05a.*"
- EmissiveMap "install01-05a-glow.*"
- SpecularMap "install01-05a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-06a.*"
- EmissiveMap "install01-06a-glow.*"
- SpecularMap "install01-06a-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 0.000000
  texture0 "invisible.*"
- EmissiveMap "invisible-glow.*"
- SpecularMap "invisible-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-02a.*"
- EmissiveMap "install01-02a-glow.*"
- SpecularMap "install01-02a-shine.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruisertile4.*"
- EmissiveMap "cruisertile4-glow.*"
- SpecularMap "cruisertile4-shine.*"
 end_material
 
 material # index 8
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruisertile3.*"
- EmissiveMap "cruisertile3-glow.*"
- SpecularMap "cruisertile3-shine.*"
 end_material
 
 material # index 9
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruisertile5.*"
- EmissiveMap "cruisertile5-glow.*"
- SpecularMap "cruisertile5-shine.*"
 end_material
 
 material # index 10

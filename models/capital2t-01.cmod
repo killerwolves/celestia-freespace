@@ -28,64 +28,48 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital4.*"
- EmissiveMap "capital4-glow.*"
- SpecularMap "capital4-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital7.*"
- EmissiveMap "capital7-glow.*"
- SpecularMap "capital7-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital3.*"
- EmissiveMap "capital3-glow.*"
- SpecularMap "capital3-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital3.*"
- EmissiveMap "capital3-glow.*"
- SpecularMap "capital3-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 0.000000
  texture0 "invisible.*"
- EmissiveMap "invisible-glow.*"
- SpecularMap "invisible-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "lights.*"
- EmissiveMap "lights-glow.*"
- SpecularMap "lights-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital6.*"
- EmissiveMap "capital6-glow.*"
- SpecularMap "capital6-shine.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "lights.*"
- EmissiveMap "lights-glow.*"
- SpecularMap "lights-shine.*"
 end_material
 
 mesh

@@ -28,48 +28,36 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov1a.*"
- EmissiveMap "tcov1a-glow.*"
- SpecularMap "tcov1a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile3b.*"
- EmissiveMap "doctile3b-glow.*"
- SpecularMap "doctile3b-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tran2a.*"
- EmissiveMap "tran2a-glow.*"
- SpecularMap "tran2a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ftile4.*"
- EmissiveMap "ftile4-glow.*"
- SpecularMap "ftile4-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile5b.*"
- EmissiveMap "doctile5b-glow.*"
- SpecularMap "doctile5b-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov5a.*"
- EmissiveMap "tcov5a-glow.*"
- SpecularMap "tcov5a-shine.*"
 end_material
 
 mesh

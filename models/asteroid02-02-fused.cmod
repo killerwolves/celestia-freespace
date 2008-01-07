@@ -27,8 +27,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "asteroid01a.*"
- EmissiveMap "asteroid01a-glow.*"
- SpecularMap "asteroid01a-shine.*"
 end_material
 
 mesh

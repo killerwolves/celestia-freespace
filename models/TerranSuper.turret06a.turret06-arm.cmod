@@ -30,8 +30,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "soupturrets.*"
- EmissiveMap "soupturrets-glow.*"
- SpecularMap "soupturrets-shine.*"
 end_material
 
 mesh

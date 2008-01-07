@@ -30,8 +30,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tsouptile05a.*"
- EmissiveMap "tsouptile05a-glow.*"
- SpecularMap "tsouptile05a-shine.*"
 end_material
 
 mesh

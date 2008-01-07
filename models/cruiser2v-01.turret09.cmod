@@ -32,8 +32,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruisertile3.*"
- EmissiveMap "cruisertile3-glow.*"
- SpecularMap "cruisertile3-shine.*"
 end_material
 
 mesh

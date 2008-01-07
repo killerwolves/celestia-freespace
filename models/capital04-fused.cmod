@@ -27,40 +27,30 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital04-01a.*"
- EmissiveMap "capital04-01a-glow.*"
- SpecularMap "capital04-01a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital04-04a.*"
- EmissiveMap "capital04-04a-glow.*"
- SpecularMap "capital04-04a-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital04-03a.*"
- EmissiveMap "capital04-03a-glow.*"
- SpecularMap "capital04-03a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital04-02a.*"
- EmissiveMap "capital04-02a-glow.*"
- SpecularMap "capital04-02a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 0.000000
  texture0 "invisible.*"
- EmissiveMap "invisible-glow.*"
- SpecularMap "invisible-shine.*"
 end_material
 
 material # index 5

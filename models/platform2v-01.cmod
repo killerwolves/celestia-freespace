@@ -28,8 +28,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "platform2v-01a.*"
- EmissiveMap "platform2v-01a-glow.*"
- SpecularMap "platform2v-01a-shine.*"
 end_material
 
 mesh

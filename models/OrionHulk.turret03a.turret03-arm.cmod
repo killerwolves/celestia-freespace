@@ -30,16 +30,12 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion06.*"
- EmissiveMap "legion06-glow.*"
- SpecularMap "legion06-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "runwaylegion.*"
- EmissiveMap "runwaylegion-glow.*"
- SpecularMap "runwaylegion-shine.*"
 end_material
 
 mesh

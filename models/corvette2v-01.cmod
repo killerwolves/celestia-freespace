@@ -28,64 +28,48 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile1a.*"
- EmissiveMap "vctile1a-glow.*"
- SpecularMap "vctile1a-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vcmapa.*"
- EmissiveMap "vcmapa-glow.*"
- SpecularMap "vcmapa-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile2a.*"
- EmissiveMap "vctile2a-glow.*"
- SpecularMap "vctile2a-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile7a.*"
- EmissiveMap "vctile7a-glow.*"
- SpecularMap "vctile7a-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile5a.*"
- EmissiveMap "vctile5a-glow.*"
- SpecularMap "vctile5a-shine.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile4a.*"
- EmissiveMap "vctile4a-glow.*"
- SpecularMap "vctile4a-shine.*"
 end_material
 
 material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile6a.*"
- EmissiveMap "vctile6a-glow.*"
- SpecularMap "vctile6a-shine.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile3a.*"
- EmissiveMap "vctile3a-glow.*"
- SpecularMap "vctile3a-shine.*"
 end_material
 
 mesh

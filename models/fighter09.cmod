@@ -28,8 +28,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "fighter09-01a.*"
- EmissiveMap "fighter09-01a-glow.*"
- SpecularMap "fighter09-01a-shine.*"
 end_material
 
 mesh

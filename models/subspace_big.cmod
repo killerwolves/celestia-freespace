@@ -28,8 +28,6 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "noise01.*"
- EmissiveMap "noise01-glow.*"
- SpecularMap "noise01-shine.*"
 end_material
 
 mesh

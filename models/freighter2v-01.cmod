@@ -28,40 +28,30 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vasftile01.*"
- EmissiveMap "vasftile01-glow.*"
- SpecularMap "vasftile01-shine.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vaseng.*"
- EmissiveMap "vaseng-glow.*"
- SpecularMap "vaseng-shine.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vaseng3.*"
- EmissiveMap "vaseng3-glow.*"
- SpecularMap "vaseng3-shine.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vasftile03.*"
- EmissiveMap "vasftile03-glow.*"
- SpecularMap "vasftile03-shine.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vasftile02.*"
- EmissiveMap "vasftile02-glow.*"
- SpecularMap "vasftile02-shine.*"
 end_material
 
 mesh
