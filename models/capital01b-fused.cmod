@@ -27,6 +27,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital01-04a.*"
+ emissivemap "capital01-04a-glow.*"
 end_material
 
 material # index 1
@@ -39,12 +40,14 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital01-01a.*"
+ emissivemap "capital01-01a-glow.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital01-03a.*"
+ emissivemap "capital01-03a-glow.*"
 end_material
 
 material # index 4
@@ -69,6 +72,7 @@ material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capital01-04a.*"
+ emissivemap "capital01-04a-glow.*"
 end_material
 
 material # index 8

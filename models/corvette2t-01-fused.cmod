@@ -39,6 +39,7 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov4a.*"
+ emissivemap "tcov4a-glow.*"
 end_material
 
 material # index 3

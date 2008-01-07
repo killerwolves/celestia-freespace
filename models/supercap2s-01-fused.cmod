@@ -27,6 +27,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile1a.*"
+ emissivemap "supertile1a-glow.*"
 end_material
 
 material # index 1
@@ -39,18 +40,21 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile4a.*"
+ emissivemap "supertile4a-glow.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile2a.*"
+ emissivemap "supertile2a-glow.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile3a.*"
+ emissivemap "supertile3a-glow.*"
 end_material
 
 material # index 5
@@ -63,12 +67,14 @@ material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile3b.*"
+ emissivemap "supertile3b-glow.*"
 end_material
 
 material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile4b.*"
+ emissivemap "supertile4b-glow.*"
 end_material
 
 material # index 8

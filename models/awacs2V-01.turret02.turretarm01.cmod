@@ -30,6 +30,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea1.*"
+ emissivemap "wactilea1-glow.*"
 end_material
 
 mesh

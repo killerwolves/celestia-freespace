@@ -39,6 +39,7 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "support01-01a.*"
+ emissivemap "support01-01a-glow.*"
 end_material
 
 material # index 3

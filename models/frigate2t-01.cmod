@@ -34,6 +34,7 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "awactile5.*"
+ emissivemap "awactile5-glow.*"
 end_material
 
 material # index 2
@@ -46,6 +47,7 @@ material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tsoupenginea.*"
+ emissivemap "tsoupenginea-glow.*"
 end_material
 
 mesh

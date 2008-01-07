@@ -28,6 +28,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cargo05-02a.*"
+ emissivemap "cargo05-02a-glow.*"
 end_material
 
 material # index 1

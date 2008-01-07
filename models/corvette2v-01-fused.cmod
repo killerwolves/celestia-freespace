@@ -33,6 +33,7 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vcmapa.*"
+ emissivemap "vcmapa-glow.*"
 end_material
 
 material # index 2
@@ -45,6 +46,7 @@ material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile7a.*"
+ emissivemap "vctile7a-glow.*"
 end_material
 
 material # index 4
@@ -57,6 +59,7 @@ material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "vctile4a.*"
+ emissivemap "vctile4a-glow.*"
 end_material
 
 material # index 6

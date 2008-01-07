@@ -45,6 +45,7 @@ material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tcov4a.*"
+ emissivemap "tcov4a-glow.*"
 end_material
 
 material # index 4
@@ -57,6 +58,7 @@ material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tsoupenginea.*"
+ emissivemap "tsoupenginea-glow.*"
 end_material
 
 material # index 6
@@ -69,12 +71,14 @@ material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tsoupdebris01b.*"
+ emissivemap "tsoupdebris01b-glow.*"
 end_material
 
 material # index 8
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "rbase1a.*"
+ emissivemap "rbase1a-glow.*"
 end_material
 
 material # index 9

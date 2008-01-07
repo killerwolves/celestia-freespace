@@ -2,12 +2,47 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
+#include <unistd.h>
 //#include <efence.h>
 #include <math.h>
 #include "cmod.h"
 #include "common.h"
 
-#define CELESTIAVERSION 141
+
+static char *texture_ext[] = {
+    "dds", "png", "jpg", NULL
+};
+
+static char *texture_suffix[] = {
+    "", "-glow", "-shine", NULL
+};
+
+int texture_exists (char *name){
+    char *tmp;
+    int ret = 0;
+    int i, j;
+    int len;
+    len = strlen(TEXTURE_DIR) + 1 + strlen(name) + 
+          TEXTURE_MAX_SUFFIX_LEN + 1 + TEXTURE_MAX_EXT_LEN + 1;
+    tmp = malloc (len);
+    ASSERT_PERROR (tmp != NULL, "Unable to allocate memory for texture existence test names");
+    for (i=0; texture_suffix[i] != NULL; i++){
+        for (j=0; texture_ext[j] != NULL; j++){
+	    snprintf (tmp, len - 1, "%s/%s%s.%s",
+	              TEXTURE_DIR, name, 
+		      texture_suffix[i], texture_ext[j]);
+	    DEBUG_PRINTF ("#   Testing %s ... ", tmp);
+	    if (!access (tmp, R_OK)){
+	        DEBUG_PRINTF (" Yes\n");
+	        ret |= 1 << i;
+		break;
+	    }
+            DEBUG_PRINTF (" No\n");
+	}
+    }
+    free (tmp);
+    return ret;
+}
 
 int cmodprint (MODEL *model){
     int i, j, n;
@@ -278,25 +313,29 @@ int cmodprint (MODEL *model){
 	    fprintf (f, " specpower %f\n", sp);
 	}
 	if (tm[0] != NULL){
+	    int te;
+	    te = texture_exists (tm[0]);
 	    DEBUG_PRINTF ("#   Texture0: %s\n", tm[0]);
 	    fprintf (f, " texture0 \"%s.*\"\n", tm[0]);
-#if CELESTIAVERSION >= 150
-	    if (em == NULL){
+	    if (em == NULL && (te & TEXTURE_GLOW) != 0){
 	        DEBUG_PRINTF ("#   EmissiveMap: %s-glow\n", tm[0]);
-	        fprintf (f, " EmissiveMap \"%s-glow.*\"\n", tm[0]);
+	        fprintf (f, " emissivemap \"%s-glow.*\"\n", tm[0]);
 	    } 
-	    if (s.r == 0 && s.g == 0 && s.b == 0){
-	        DEBUG_PRINTF ("#   Specular: [ 1 1 1 ]\n", tm[0]);
-	        fprintf (f, " Specular: [ 1 1 1 ]\n", tm[0]);
+#if CELESTIAVERSION >= 150
+	    if ((te & TEXTURE_SHINE) != 0){
+		if (s.r == 0 && s.g == 0 && s.b == 0){
+		    DEBUG_PRINTF ("#   Specular: [ 1 1 1 ]\n", tm[0]);
+		    fprintf (f, " specular: [ 1 1 1 ]\n", tm[0]);
+		}
+		if (sp == 0){
+		    DEBUG_PRINTF ("#   SpecPower: 1\n", tm[0]);
+		    fprintf (f, " specpower: 1\n", tm[0]);
+		}
+		if (sm == NULL){
+		    DEBUG_PRINTF ("#   SpecularMap: %s-shine\n", tm[0]);
+		    fprintf (f, " specularmap \"%s-shine.*\"\n", tm[0]);
+		} 
 	    }
-	    if (sp == 0){
-	        DEBUG_PRINTF ("#   SpecPower: 1\n", tm[0]);
-	        fprintf (f, " SpecPower: 1\n", tm[0]);
-            }
-	    if (sm == NULL){
-	        DEBUG_PRINTF ("#   SpecularMap: %s-shine\n", tm[0]);
-	        fprintf (f, " SpecularMap \"%s-shine.*\"\n", tm[0]);
-	    } 
 #endif
         }
 	if (tm[1] != NULL){
@@ -311,11 +350,11 @@ int cmodprint (MODEL *model){
 	    DEBUG_PRINTF ("#   Texture3: %s\n", tm[3]);
 	    fprintf (f, " texture3 \"%s.*\"\n", tm[3]);
 	}
-#if CELESTIAVERSION >= 150
 	if (em != NULL){
 	    DEBUG_PRINTF ("#   EmissiveMap: %s\n", em);
 	    fprintf (f, " emissivemap \"%s.*\"\n", em);
 	}
+#if CELESTIAVERSION >= 150
 	if (sm != NULL){
 	    DEBUG_PRINTF ("#   SpecularMap: %s\n", sm);
 	    fprintf (f, " specularmap \"%s.*\"\n", sm);

@@ -36,12 +36,14 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miners201-01a.*"
+ emissivemap "miners201-01a-glow.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "minertile2a.*"
+ emissivemap "minertile2a-glow.*"
 end_material
 
 mesh

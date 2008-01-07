@@ -38,12 +38,14 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "gatea3.*"
+ emissivemap "gatea3-glow.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "gatea1.*"
+ emissivemap "gatea1-glow.*"
 end_material
 
 material # index 3

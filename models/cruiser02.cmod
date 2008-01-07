@@ -28,6 +28,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruiser02-01a.*"
+ emissivemap "cruiser02-01a-glow.*"
 end_material
 
 material # index 1
@@ -40,6 +41,7 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruiser02tile04.*"
+ emissivemap "cruiser02tile04-glow.*"
 end_material
 
 mesh

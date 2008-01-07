@@ -46,6 +46,7 @@ material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tile2.*"
+ emissivemap "tile2-glow.*"
 end_material
 
 material # index 4

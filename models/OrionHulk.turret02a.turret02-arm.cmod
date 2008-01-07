@@ -36,6 +36,7 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "runwaylegion.*"
+ emissivemap "runwaylegion-glow.*"
 end_material
 
 mesh

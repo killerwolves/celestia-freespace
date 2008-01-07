@@ -27,6 +27,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "fighter08-01a.*"
+ emissivemap "fighter08-01a-glow.*"
 end_material
 
 material # index 1

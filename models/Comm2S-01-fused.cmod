@@ -33,12 +33,14 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "commtiles1a.*"
+ emissivemap "commtiles1a-glow.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "commtiles2a.*"
+ emissivemap "commtiles2a-glow.*"
 end_material
 
 mesh

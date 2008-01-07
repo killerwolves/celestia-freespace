@@ -58,6 +58,7 @@ material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "lights.*"
+ emissivemap "lights-glow.*"
 end_material
 
 material # index 6
@@ -70,6 +71,7 @@ material # index 7
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "lights.*"
+ emissivemap "lights-glow.*"
 end_material
 
 mesh

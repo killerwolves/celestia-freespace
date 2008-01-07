@@ -30,6 +30,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "capvtile5b.*"
+ emissivemap "capvtile5b-glow.*"
 end_material
 
 mesh

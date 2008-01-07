@@ -33,6 +33,7 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tsouplighttilea.*"
+ emissivemap "tsouplighttilea-glow.*"
 end_material
 
 material # index 2
@@ -51,6 +52,7 @@ material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tsoupenginea.*"
+ emissivemap "tsoupenginea-glow.*"
 end_material
 
 material # index 5

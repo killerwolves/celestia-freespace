@@ -28,6 +28,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "freighter02-01a.*"
+ emissivemap "freighter02-01a-glow.*"
 end_material
 
 mesh

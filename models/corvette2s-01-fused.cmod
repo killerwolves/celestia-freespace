@@ -33,6 +33,7 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "corvstile3a.*"
+ emissivemap "corvstile3a-glow.*"
 end_material
 
 material # index 2

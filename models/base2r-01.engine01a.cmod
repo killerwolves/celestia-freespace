@@ -37,6 +37,7 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "rbase1a.*"
+ emissivemap "rbase1a-glow.*"
 end_material
 
 mesh

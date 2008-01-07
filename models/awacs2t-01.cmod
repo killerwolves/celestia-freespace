@@ -28,6 +28,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "awaca.*"
+ emissivemap "awaca-glow.*"
 end_material
 
 material # index 1
@@ -40,12 +41,14 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "awacda.*"
+ emissivemap "awacda-glow.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "awactile5.*"
+ emissivemap "awactile5-glow.*"
 end_material
 
 material # index 4

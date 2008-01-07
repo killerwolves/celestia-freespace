@@ -28,6 +28,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles2a.*"
+ emissivemap "cruistiles2a-glow.*"
 end_material
 
 material # index 1
@@ -40,6 +41,7 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles5a.*"
+ emissivemap "cruistiles5a-glow.*"
 end_material
 
 material # index 3
@@ -52,6 +54,7 @@ material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruistiles4a.*"
+ emissivemap "cruistiles4a-glow.*"
 end_material
 
 mesh

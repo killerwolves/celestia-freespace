@@ -27,30 +27,35 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-03a.*"
+ emissivemap "install01-03a-glow.*"
 end_material
 
 material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-01a.*"
+ emissivemap "install01-01a-glow.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-04a.*"
+ emissivemap "install01-04a-glow.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-05a.*"
+ emissivemap "install01-05a-glow.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-06a.*"
+ emissivemap "install01-06a-glow.*"
 end_material
 
 material # index 5
@@ -63,6 +68,7 @@ material # index 6
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "install01-02a.*"
+ emissivemap "install01-02a-glow.*"
 end_material
 
 material # index 7
@@ -75,6 +81,7 @@ material # index 8
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "cruisertile3.*"
+ emissivemap "cruisertile3-glow.*"
 end_material
 
 material # index 9

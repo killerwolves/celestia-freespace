@@ -27,6 +27,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner01-01a.*"
+ emissivemap "miner01-01a-glow.*"
 end_material
 
 material # index 1
@@ -39,6 +40,7 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner01-03.*"
+ emissivemap "miner01-03-glow.*"
 end_material
 
 material # index 3
@@ -51,6 +53,7 @@ material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner01-06.*"
+ emissivemap "miner01-06-glow.*"
 end_material
 
 material # index 5

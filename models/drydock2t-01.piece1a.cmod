@@ -56,12 +56,14 @@ material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile4a.*"
+ emissivemap "doctile4a-glow.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "doctile6a.*"
+ emissivemap "doctile6a-glow.*"
 end_material
 
 mesh

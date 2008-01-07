@@ -34,12 +34,14 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02va1.*"
+ emissivemap "miner02va1-glow.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vtile04a.*"
+ emissivemap "miner02vtile04a-glow.*"
 end_material
 
 material # index 3
@@ -58,6 +60,7 @@ material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "miner02vtile05a.*"
+ emissivemap "miner02vtile05a-glow.*"
 end_material
 
 mesh

@@ -27,6 +27,7 @@ material # index 0
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea1.*"
+ emissivemap "wactilea1-glow.*"
 end_material
 
 material # index 1
@@ -39,18 +40,21 @@ material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea2.*"
+ emissivemap "wactilea2-glow.*"
 end_material
 
 material # index 3
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea3.*"
+ emissivemap "wactilea3-glow.*"
 end_material
 
 material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "wactilea4.*"
+ emissivemap "wactilea4-glow.*"
 end_material
 
 material # index 5

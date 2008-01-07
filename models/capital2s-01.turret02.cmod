@@ -38,12 +38,14 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "tsoupdebris01b.*"
+ emissivemap "tsoupdebris01b-glow.*"
 end_material
 
 material # index 2
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "supertile1a.*"
+ emissivemap "supertile1a-glow.*"
 end_material
 
 mesh

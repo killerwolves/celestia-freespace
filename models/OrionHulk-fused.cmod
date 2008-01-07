@@ -33,6 +33,7 @@ material # index 1
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "runwaylegion.*"
+ emissivemap "runwaylegion-glow.*"
 end_material
 
 material # index 2
@@ -51,12 +52,14 @@ material # index 4
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "legion03.*"
+ emissivemap "legion03-glow.*"
 end_material
 
 material # index 5
  diffuse 1.000000 1.000000 1.000000
  opacity 1.000000
  texture0 "ylegionwindows.*"
+ emissivemap "ylegionwindows-glow.*"
 end_material
 
 material # index 6
