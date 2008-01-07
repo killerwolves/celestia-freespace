@@ -7,6 +7,8 @@
 #include "cmod.h"
 #include "common.h"
 
+#define CELESTIAVERSION 141
+
 int cmodprint (MODEL *model){
     int i, j, n;
     struct MODEL_PATH *parent;
@@ -278,15 +280,25 @@ int cmodprint (MODEL *model){
 	if (tm[0] != NULL){
 	    DEBUG_PRINTF ("#   Texture0: %s\n", tm[0]);
 	    fprintf (f, " texture0 \"%s.*\"\n", tm[0]);
+#if CELESTIAVERSION >= 150
 	    if (em == NULL){
 	        DEBUG_PRINTF ("#   EmissiveMap: %s-glow\n", tm[0]);
 	        fprintf (f, " EmissiveMap \"%s-glow.*\"\n", tm[0]);
-	    }   
+	    } 
+	    if (s.r == 0 && s.g == 0 && s.b == 0){
+	        DEBUG_PRINTF ("#   Specular: [ 1 1 1 ]\n", tm[0]);
+	        fprintf (f, " Specular: [ 1 1 1 ]\n", tm[0]);
+	    }
+	    if (sp == 0){
+	        DEBUG_PRINTF ("#   SpecPower: 1\n", tm[0]);
+	        fprintf (f, " SpecPower: 1\n", tm[0]);
+            }
 	    if (sm == NULL){
 	        DEBUG_PRINTF ("#   SpecularMap: %s-shine\n", tm[0]);
 	        fprintf (f, " SpecularMap \"%s-shine.*\"\n", tm[0]);
-	    }   
-	}
+	    } 
+#endif
+        }
 	if (tm[1] != NULL){
 	    DEBUG_PRINTF ("#   Texture1: %s\n", tm[1]);
 	    fprintf (f, " texture1 \"%s.*\"\n", tm[1]);
@@ -299,6 +311,7 @@ int cmodprint (MODEL *model){
 	    DEBUG_PRINTF ("#   Texture3: %s\n", tm[3]);
 	    fprintf (f, " texture3 \"%s.*\"\n", tm[3]);
 	}
+#if CELESTIAVERSION >= 150
 	if (em != NULL){
 	    DEBUG_PRINTF ("#   EmissiveMap: %s\n", em);
 	    fprintf (f, " emissivemap \"%s.*\"\n", em);
@@ -311,6 +324,7 @@ int cmodprint (MODEL *model){
 	    DEBUG_PRINTF ("#   NormalMap: %s\n", nm);
 	    fprintf (f, " normalmap \"%s.*\"\n", nm);
 	}
+#endif
 	fprintf (f, "end_material\n\n");
     }
 #ifdef DEBUGAXIS
