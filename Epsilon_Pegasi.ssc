@@ -8,9 +8,18 @@
 "e" "Epsilon Pegasi"
 {
     Texture "fs2_planet_e.*"
+    NightTexture "fs2_planet_e_night.*"
     Mass    5e23
     Radius  3000
     Color   [ 0.38 0.46 0.35 ]
+
+    Atmosphere {
+        Height 200
+	Lower [ 0.36 0.36 0.31 ]
+	Upper [ 0.26 0.26 0.21 ]
+	Sky [ 0.3 1.0 0.2 ]
+	Sunset [ 0.7 0.2 0.5 ]
+    }
 
     EllipticalOrbit {
         Period        3

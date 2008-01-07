@@ -72,7 +72,7 @@
 
 "GTD Orion Wreck" "Deneb/a/h"
 {
-    Mesh    "FS2_Bastion.cmod"
+    Mesh    "OrionHulk-fused.cmod"
     Mass    100000
     Radius  1.112
 
