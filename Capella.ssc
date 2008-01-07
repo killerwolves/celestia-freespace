@@ -176,6 +176,14 @@
     Radius  6000
     Color   [ 0.44 0.43 0.55 ]
 
+    Atmosphere {
+        Height 500
+	Lower [ 0.40 0.40 0.70 ]
+	Upper [ 0.26 0.26 0.40 ]
+	Sky [ 0.3 0.2 1.0 ]
+	Sunset [ 0.7 0.5 0.2 ]
+    }
+
     EllipticalOrbit {
         Period        1500
 	SemiMajorAxis 12000000
