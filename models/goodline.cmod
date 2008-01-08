@@ -1,0 +1,22 @@
+#celmodel__ascii
+
+material
+ emissive 0 1 1
+ diffuse 0 1 1
+ opacity 0.5
+end_material
+
+mesh
+
+vertexdesc
+ position f3
+end_vertexdesc
+
+vertices 2
+-1 0 0
+ 1 0 0
+
+linelist 0 2
+ 0 1
+
+end_mesh
