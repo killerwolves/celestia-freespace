@@ -1,31 +1,31 @@
-89430 "Vasuda" {
-  RA 273.78538656
-  Dec -57.85413695
-  Distance 162.10555515
-  AppMag 7.59
-  SpectralType "G2V"
+2021 "Vasuda" {
+  RA 6.437917
+  Dec -77.254167
+  Distance 24.366
+  AppMag 2.80
+  SpectralType "G1IV"
 }
 
 101810 "Ikeya" {
-  RA 309.47794309
-  Dec 18.26843076
-  Distance 356.06591373
+  RA 309.47794
+  Dec 18.268431
+  Distance 356.07752
   AppMag 6.21
   SpectralType "M6III"
 }
 
 105303 "Laramis" {
-  RA 319.92814589 
-  Dec 55.45005726 
-  Distance 1016.06347974
+  RA 319.92814
+  Dec 55.450058
+  Distance 1016.0966
   AppMag 7.19
   SpectralType "M6III"
 }
 
 110256 "Ribos" {
-  RA 335.00616728
-  Dec -80.43964260
-  Distance 268.44146252
+  RA 335.00616
+  Dec -80.439644
+  Distance 268.45021
   AppMag 5.08
   SpectralType "M6III"
 }
