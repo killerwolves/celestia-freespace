@@ -192,7 +192,7 @@ int get_name_f3 (FILE *f, char *name, int len, long double *v1,
 	    }
 	}
 	if (c == EOF){
-	    return 0;
+	    return -1;
 	}
 	if (q == 4){
 	    if (c == '\n'){
