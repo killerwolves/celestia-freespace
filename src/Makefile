@@ -4,7 +4,10 @@ DISC2MAP_LIBS   = -lm -lnetpbm
 POF2CMOD_OBJS   = pof2cmod.o cmod.o pof.o bsp.o
 POF2CMOD_LIBS   = -lm
 
-PROGRAMS        = pof2cmod disc2map
+GALAXY_OBJS     = galaxy.o
+GALAXY_LIBS     = -lm
+
+PROGRAMS        = pof2cmod disc2map galaxy eqt2gal gal2ecl
 
 .PHONY : all clean depend
 
@@ -15,6 +18,15 @@ pof2cmod: $(POF2CMOD_OBJS)
 
 disc2map: $(DISC2MAP_OBJS)
 	$(CC) -o $@ $+ $(DISC2MAP_LIBS)
+
+galaxy: $(GALAXY_OBJS)
+	$(CC) -o $@ $+ $(GALAXY_LIBS)
+
+eqt2gal: galaxy
+	cp $+ $@
+
+gal2ecl: galaxy
+	cp $+ $@
 
 %.d: %.c
 	@set -e; rm -f $@; \
